@@ -1,4 +1,3 @@
 markdown: redcarpet
-source: ~/Documents/GitHub/jkl-pages/
 baseurl: jkl-pages
 exclude: ['README.md']
