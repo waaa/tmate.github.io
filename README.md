@@ -1,13 +1,10 @@
-SubGit Documentation Markdown Guide
+SubGit Documentation Markdown
 ===================================
-
-Your description goes here.
-
 It is important to put the title in quotes in order to display it properly.
 
 Markdown syntax:
 
-\#\# Test caption = <h1 class="readme">Test caption</h1>
+\#\# Chapter caption = Chapter caption
 
 \*italic or emphasized\* = *italic or emphasized*
 
