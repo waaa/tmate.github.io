@@ -3,13 +3,28 @@
 
     $(document).ready(function() {
 
-        /* Tabs */
-        $('ul#tabs').on('click', 'li:not(.current)', function() {
-            $(this).addClass('current').siblings().removeClass('current')
-                .parents('#tab_wrap').find('div.box').eq($(this).index()).fadeIn(0).siblings('div.box').hide();
+        var contentTop = [];
+
+        $("#documentation").find("#content").on("click", "ul li a", function() {
+
+            $("#documentation").find(".wrapper").find("div[id]").each(function(){
+                contentTop.push($(this).offset().top);
+            });
+
+            var target = $(this.hash);
+
+            if (target.length == 0) {
+                target = $('div[id="' + this.hash.substr(1) + '"]');
+            }
+
+
+            $("html, body").animate({
+                scrollTop: target.offset().top
+            }, 500);
+
+            return false;
         });
 
-        /* Links */
         $("a[href='#up']").click(function() {
             $("html, body").animate({ scrollTop: 0}, 1000);
             return false;

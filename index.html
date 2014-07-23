@@ -2,63 +2,19 @@
 layout: default
 ---
 
-<pre>Chapter 1. Overview
+{% include nav.html %}
 
-SubGit is a tool for bidirectional Subversion and Git repositories synchronization. SubGit is written in Java.
+{% for i in site.categories.chapter reversed %}
+	<div class="wrapper" id="{{ i.chid }}">
+		{{ i.content }}
+	</div>
+{% endfor %}
 
-For information on how to install SubGit into the local Subversion repository, refer to SubGit Local Book. This book only covers the case when SubGit is used to create Git mirror of a remote Subversion repository.
+<pre>
 
-Most commonly, SubGit user starts with Subversion repository being configured on the server. Access to Subversion repository is available over network (with HTTP(s), plain svn or svn over SSH protocols) and over the local file system. Correspondingly, users requests are handled by Apache Web Server, svnserve daemon or sshd daemon which invokes svnserve process. Figure 1.1 shows a generic outline of the described configuration.
 
-Figure 1.1. Common Subversion Setup
 
-Common Subversion Setup
-User creates Git repositories with SubGit and configures them so, that these repositories are kept in sync with the remote Subversion repository. Each Git repository mirrors one Subverion project (there could be multiple projects within a single Subversion repository). Changes pushed to the Git repository are instantly translated into Subversion project and vice versa - commits to Subversion project are reflected in the corresponding Git repository.
 
-Optionally, user may enable revision properties on Subversion side by enabling pre-revprop-change hook in Subversion repository - this will let SubGit use single Subversion user account, but this modification is not required, so even Subversion repositories that you do not have shell access to could be mirrored with SubGit. Figure 1.2 shows typical SubGit set up that allows one to use both Subversion and Git and smoothes migration path.
-
-During mirror initialization stage, SubGit translates existing Subversion revisions into a newly created Git repository. There is also a way to skip mirroring and only use SubGit for one-time import from Subversion to Git.
-
-Figure 1.2. Git Mirror of a Remote Subversion Repository created with SubGit
-
-Git Mirror of a Remote Subversion Repository created with SubGit
-Chapter summary:
-
-SubGit creates Git repository that mirrors project in a remote Subversion repositories
-SubGit could be used for one-time import from Subversion to Git
-Direct shell access to Subversion repository is not required
-SubGit grants users with a choice of whether to use Git or Subversion and smoothes migration path
-SubGit is implemented in Java and needs Java 1.5 or newer
-Chapter 2. SubGit Features
-
-Major SubGit benefits are
-
-Great translation and initial import performance (in comparison to git-svn)
-No limits are put on Svn and Git users (contrary to git-svn)
-Requires no shell access to Subversion repository (contrary to SubGit 1.0.x)
-SubGit includes powerful translation engine, which would translate
-
-merge tracking information and merge history
-non-linear Git commits history to Subversion
-subprojects, tags and branches
-svn:ignore and .gitignore ignore definitions
-svn:eol-style and .gitattributes special properties
-symbolic links
-commit authors and dates
-files and directories renames
-There are a few limitations on translation (see Chapter 9, Translation Limitations). These limitations only affects translation, and do not prevent Git and Subversion from being used to their full extents.
-
-Chapter 3. Mirror Configuration Overview
-
-To synchronize Subversion and Git repositories, SubGit maps entities of one system to those of another. One Git repository is always mapped to a single project within Subversion repository. There could be from one to many projects in Subversion repository. Git repository contains SubGit configuration that defines the following information and mappings:
-
-Subversion project location within Subversion repository
-Subversion project branches and tags are mapped to the Git branch and tag references
-Subversion users are mapped to the Git committers
-Above mappings are static and configured within Git repository once before translation and synchronization is started. All mappings and other information is stored in configuration files located in the GIT_REPOS/subgit directory. Following sections describe these mappings in more details.
-
-Note:
-Subversion is a very powerful system and sets mostly no limits on the repository and project layout. Hence, it may not be always possible to define necessary mappings for any project stored in Subversion repository found out there in the wild. Such unmappable projects would not be handled by SubGit. However, for the most of the Subversion repositories in production use, mappings could be defined and, in most cases, they are detected automatically by SubGit.
 
 3.1. Subversion Projects Location
 Subversion repository may contain one or more projects. Project is a location (folder) in Subversion repository which follows Subversion recommended repository layout, i.e. project folder has trunk, branches and tags subfolders:

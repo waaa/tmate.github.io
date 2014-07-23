@@ -1,0 +1,9 @@
+<div id="booknav">
+	<ul>
+		{% for chapt in site.categories.chapter reversed %}
+			<li>
+				<a href="#{{ chapt.chid }}">{{chapt.title}}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
