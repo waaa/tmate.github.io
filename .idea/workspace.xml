@@ -44,7 +44,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="80" selection-end="80" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="585">
+            <state line="2" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -125,8 +125,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -791,7 +791,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="80" selection-end="80" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="585">
+        <state line="2" column="20" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.1111112" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
