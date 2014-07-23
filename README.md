@@ -7,7 +7,7 @@ It is important to put the title in quotes in order to display it properly.
 
 Markdown syntax:
 
-\#\# Test caption = ##Test caption
+\#\# Test caption = <h2>## Test caption</h2>
 
 \*italic or emphasized\* = *italic or emphasized*
 
