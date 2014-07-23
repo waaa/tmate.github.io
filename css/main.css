@@ -35,8 +35,7 @@ pre {font-family: monospace;}
 #booknav .subchapter {margin-left: 35px;}
 .current {font-family: 'allerbold', sans-serif;}
 
-#content h1{text-transform:uppercase; text-align:center; font-family: 'allerbold', sans-serif; font-size:44px;}
-#content h2{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px;}
+#content h1{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px;}
 #content h5{font-size:20px; color:#807969;font-family: 'allerbold', sans-serif; margin-bottom:16px; line-height:28px;}
 #content p{font-size:20px;font-family: 'allerregular', sans-serif; line-height:28px;}
 #content a{color:#80a0b4;}

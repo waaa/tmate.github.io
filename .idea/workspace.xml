@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53311f0c-8d3d-4951-addc-624eb66f9563" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-03-Chapter5.2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-04-Chapter5.3.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-05-Chapter5.4.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-06-Chapter5.5.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-07-Chapter5.6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-08-Chapter5.7.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-09-Chapter5.8.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-10-Chapter5.9.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-11-Chapter5.10.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-12-Chapter5.11.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-05-13-Chapter5.12.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-06-01-Chapter6.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-06-02-Chapter6.1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-06-03-Chapter6.2.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-07-01-Chapter7.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-08-01-Chapter8.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-09-01-Chapter9.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-10-01-Chapter10.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/0000-11-01-Chapter11.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/nav1.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md" afterPath="$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-02-01-Chapter2.md" afterPath="$PROJECT_DIR$/_posts/0000-02-01-Chapter2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-03-01-Chapter3.md" afterPath="$PROJECT_DIR$/_posts/0000-03-01-Chapter3.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-03-02-Chapter3.1.md" afterPath="$PROJECT_DIR$/_posts/0000-03-02-Chapter3.1.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-03-03-Chapter3.2.md" afterPath="$PROJECT_DIR$/_posts/0000-03-03-Chapter3.2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-03-04-Chapter3.3.md" afterPath="$PROJECT_DIR$/_posts/0000-03-04-Chapter3.3.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-04-01-Chapter4.md" afterPath="$PROJECT_DIR$/_posts/0000-04-01-Chapter4.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-05-01-Chapter5.md" afterPath="$PROJECT_DIR$/_posts/0000-05-01-Chapter5.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/0000-05-02-Chapter5.1.md" afterPath="$PROJECT_DIR$/_posts/0000-05-02-Chapter5.1.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -66,10 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="0000-01-01-Chapter1.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="113" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="48" selection-start="279" selection-end="279" vertical-scroll-proportion="0.17405063" vertical-offset="0" max-vertical-offset="948">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="990">
+            <state line="37" column="11" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -95,14 +88,12 @@
         <option value="$PROJECT_DIR$/_layouts/chapterlayout.html" />
         <option value="$PROJECT_DIR$/_layouts/header.html" />
         <option value="$PROJECT_DIR$/subgit-remote-book/Chapter1.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_posts/0000-01-03-Chapter3.md" />
         <option value="$PROJECT_DIR$/_posts/0000-01-02-Chapter2.md" />
         <option value="$PROJECT_DIR$/_posts/0000-01-04-Chapter3.1.md" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/_posts/0000-05-04-Chapter5.3.md" />
-        <option value="$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md" />
         <option value="$PROJECT_DIR$/_posts/0000-02-01-Chapter2.md" />
         <option value="$PROJECT_DIR$/_posts/0000-03-01-Chapter3.md" />
         <option value="$PROJECT_DIR$/_posts/0000-03-02-Chapter3.1.md" />
@@ -110,7 +101,6 @@
         <option value="$PROJECT_DIR$/_posts/0000-03-04-Chapter3.3.md" />
         <option value="$PROJECT_DIR$/_posts/0000-04-01-Chapter4.md" />
         <option value="$PROJECT_DIR$/_posts/0000-05-01-Chapter5.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_posts/0000-05-02-Chapter5.1.md" />
         <option value="$PROJECT_DIR$/_posts/0000-05-03-Chapter5.2.md" />
         <option value="$PROJECT_DIR$/_posts/0000-05-05-Chapter5.4.md" />
@@ -133,7 +123,10 @@
         <option value="$PROJECT_DIR$/_posts/0000-12-01-Chapter12.md" />
         <option value="$PROJECT_DIR$/_posts/0000-13-01-Chapter13.md" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -273,20 +266,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jkl-pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jkl-pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -302,20 +281,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jkl-pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jkl-pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,7 +361,11 @@
       <created>1406122187933</created>
       <updated>1406122187933</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="transfered all chapters from index to md's, added all md's, navigation css changes, note in README">
+      <created>1406135224644</created>
+      <updated>1406135224644</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -421,25 +390,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1094" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1682641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889345" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1682641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -482,7 +451,8 @@
     <MESSAGE value="added chapter5.md" />
     <MESSAGE value="added more chapters.md, nav.html fix to show subitems, new classes and ids for navigation, jquery script update to set active nav item to bold" />
     <MESSAGE value="added 3 more chapters" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 3 more chapters" />
+    <MESSAGE value="transfered all chapters from index to md's, added all md's, navigation css changes, note in README" />
+    <option name="LAST_COMMIT_MESSAGE" value="transfered all chapters from index to md's, added all md's, navigation css changes, note in README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -573,11 +543,6 @@
         <state line="13" column="6" selection-start="529" selection-end="529" vertical-scroll-proportion="0.20591341" vertical-offset="0" max-vertical-offset="947" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="23" selection-start="2256" selection-end="2256" vertical-scroll-proportion="0.47002143" vertical-offset="386" max-vertical-offset="1320" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="47" selection-start="255" selection-end="255" vertical-scroll-proportion="0.15447992" vertical-offset="0" max-vertical-offset="971" />
@@ -586,16 +551,6 @@
     <entry file="file://$PROJECT_DIR$/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="16" selection-start="108" selection-end="108" vertical-scroll-proportion="0.06430868" vertical-offset="0" max-vertical-offset="933" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="34" selection-end="34" vertical-scroll-proportion="0.033039648" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/0000-02-01-Chapter2.md">
@@ -622,13 +577,6 @@
     <entry file="file://$PROJECT_DIR$/_posts/0000-03-03-Chapter3.2.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="38" selection-start="28" selection-end="58" vertical-scroll-proportion="0.03208556" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="60" selection-end="60" vertical-scroll-proportion="0.06329114" vertical-offset="0" max-vertical-offset="948">
           <folding />
         </state>
       </provider>
@@ -800,6 +748,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/0000-12-02-Chapter13.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="948">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/0000-12-01-Chapter12.md">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -810,9 +765,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/0000-12-02-Chapter13.md">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="948">
+        <state line="55" column="23" selection-start="2271" selection-end="2271" vertical-scroll-proportion="0.9055982" vertical-offset="0" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>
@@ -826,7 +781,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="2120" selection-end="2120" vertical-scroll-proportion="0.54545456" vertical-offset="0" max-vertical-offset="990">
+        <state line="37" column="11" selection-start="2186" selection-end="2186" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/0000-01-01-Chapter1.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="113" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.5555553" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="279" selection-end="279" vertical-scroll-proportion="0.17405063" vertical-offset="0" max-vertical-offset="948">
           <folding />
         </state>
       </provider>
