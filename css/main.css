@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h4{font-weight:normal;}
 h3 {font-family:'allerregular', sans-serif; text-transform:uppercase;}
 b, strong{font-family: 'allerbold', sans-serif;}
 textarea{resize:none;}
+pre {font-family: monospace;}
 
 .on_top{position:fixed;top:-0px;}
 #container{min-width:945px;}
@@ -31,7 +32,7 @@ textarea{resize:none;}
 #booknav ul li {list-style: none;}
 #booknav ul li a { text-decoration: none; }
 #booknav ul li a:hover { text-decoration: underline; }
-#booknav .subchapter {margin-left: 40px;}
+#booknav .subchapter {margin-left: 35px;}
 .current {font-family: 'allerbold', sans-serif;}
 
 #content h1{text-transform:uppercase; text-align:center; font-family: 'allerbold', sans-serif; font-size:44px;}
