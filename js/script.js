@@ -4,10 +4,14 @@
     $(document).ready(function() {
 
         var contentTop = [];
+        var doc = $("#documentation");
 
-        $("#documentation").find("#content").on("click", "ul li a", function() {
+        doc.find("#content").on("click", "ul li a", function() {
 
-            $("#documentation").find(".wrapper").find("div[id]").each(function(){
+            doc.find("a").removeClass("current");
+            $(this).addClass("current");
+
+            doc.find(".wrapper").find("div[id]").each(function(){
                 contentTop.push($(this).offset().top);
             });
 

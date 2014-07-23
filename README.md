@@ -1,4 +1,4 @@
-jkl-pages
+SubGit Documentation
 =========
 
-Trying to make things work.
+Your description goes here.

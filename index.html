@@ -4,7 +4,7 @@ layout: default
 
 {% include nav.html %}
 
-{% for i in site.categories.chapter reversed %}
+{% for i in site.posts reversed %}
 	<div class="wrapper" id="{{ i.chid }}">
 		{{ i.content }}
 	</div>
@@ -16,184 +16,17 @@ layout: default
 
 
 
-3.1. Subversion Projects Location
-Subversion repository may contain one or more projects. Project is a location (folder) in Subversion repository which follows Subversion recommended repository layout, i.e. project folder has trunk, branches and tags subfolders:
-
-/project
-/trunk    # project's "main line"
-/branches # contains project feature and version branches, copied from trunk or other branches
-/tags     # contains project tags (trunk and branches snapshots)
-
-It is not necessary for trunk, branches and tags folders to have these exact names, but the roles of these folders are important. Each project could be mapped to a bare Git repository as shown in Figure 3.1 and Figure 3.3 along with the corresponding parts of SubGit configuration file.
-
-Figure 3.1. Single Project Repository Mapping
-
-Single Project Repository Mapping
-Figure 3.2. SubGit configuration file (single project mapping)
-
-[svn]
-# URL that points to a project root
-# (may be the same as Subversion repository root)
-url = http://host/svn/repos
-
-Figure 3.3. Multiple Projects Repository Mapping
-
-Multiple Projects Repository Mapping
-Figure 3.4. SubGit configuration file (two projects mapping)
-
-/var/git/project1.git/subgit/config
-
-[svn]
-# project location within Subversion repository
-url = http://host/svn/repos/project1
-...
-
-/var/git/project2.git/subgit/config
-
-[svn]
-# project location within Subversion repository
-url = http://host/svn/repos/project2
 
 
-3.2. Branches and Tags mapping
-For each project mapped to a Git repository, branches and tags are mapped to the corresponding references in the Git repository. SubGit distinguishes the following folders in Subversion project as branches or tags:
 
-trunk folder
-folders in the dedicated branches folder
-folders in the dedicated shelves folder
-folders in the dedicated tags folder
-Shelves are special kind of branches used by SubGit to represent Git anonymous branches in Subversion repository.
 
-Each folder is mapped to the reference (branch or tag) in the Git repository. For trunk folder the mapping is one-to-one as there could be only one trunk folder (as well as only one master reference in Git) and for other folders wildcard mapping is used. Default mapping and corresponding SubGit configuration file part is shown in Figure 3.5 and Figure 3.6.
 
-Whenever project uses standard folder names (i.e. trunk, branches and tags), SubGit would automatically detect and configure mapping for that project. Otherwise configuration would have to be manually adjusted to include proper paths and references names.
 
-Figure 3.5. Default Branches and Tags Mapping
 
-Default Branches and Tags Mapping
-Figure 3.6. SubGit configuration file (default branches and tags mapping)
 
-[svn]
-url = http://host/svn/repos/project1
 
-# branches and tags mapping in form of
-# branchKind=Subversion-Path-Pattern:Git-Reference-Pattern
 
-trunk = trunk:refs/heads/master
-branches = branches/*:refs/heads/*
-shelves = shelves/*:refs/shelves/*
-tags = tags/*:refs/tags/*
 
-Notice that project2 in Figure 3.3 features non-standard names for trunk, branches and tags folders. Figure 3.7 shows mapping configuration for that project.
-
-Figure 3.7. SubGit configuration file (non-standard folders names)
-
-[svn]
-url = http://host/svn/repos/project2
-
-# branches and tags mapping in form of
-# branchKind=Subversion-Path-Pattern:Git-Reference-Pattern
-
-trunk = main:refs/heads/master
-branches = versions/*:refs/heads/*
-shelves = shelves/*:refs/shelves/*
-tags = stamps/*:refs/tags/*
-
-Figure 3.8 outlines combined project and branches mappings for two projects Subversion repository.
-
-Figure 3.8. Project and Branches Mapping
-
-Project and Branches Mapping
-3.3. Authors Mapping
-By default there is no explicit authors mapping and the following rules are used for translation:
-
-Subversion "svn_user_name" is translated to "svn_user_name <>" in Git
-Git "Author Name <email@domain.com>" is translated to "Author Name" in Subversion
-Additionally to the default rule, explicit authors mapping may be provided by SubGit configuration. Authors mapping is stored in a separate text file which is looked at GIT_REPOS/subgit/authors.txt by default. Mapping file is read in system default encoding.
-
-Figure 3.9. GIT_REPOS/subgit/authors.txt file
-
-svn_user_name = Git Name <name@email.com>
-
-Default authors.txt location may be changed in SubGit configuration file.
-
-Figure 3.10. SubGit configuration file defines authors.txt location
-
-[core]
-...
-# location of the authors mapping file
-authorsFile = subgit/authors.txt
-...
-
-Authors mapping file (authors.txt) contents may be altered at any time and new mapping becomes effective immediately.
-
-Chapter 4. One-time Import from Subversion to Git
-
-Sometimes there is no need to keep Git repository in sync with Subversion repository and one way import is sufficient. SubGit offers shortcut import command that allows to import a project into a Git repository with a one-liner. import command lets user to specify all necessary options on a command line, thus making import command a usable in a batch automation.
-
-$ subgit help import
-
-info: Import SVN or Git repository.
-usage: subgit import [--svn-url URL] [--default-domain DOMAIN] [--minimal-revision REV] [--authors-file FILE] [--trunk PATH] [--branches PATH] [--tags PATH] [--username SVN_USERNAME] [--password SVN_PASSWORD] [--non-interactive] [--trust-server-cert] [--private-key SVN_PRIVATE_KEY_PATH] [--private-key-passphrase SVN_PRIVATE_KEY_PASSPHRASE] REPOS_PATH
-
-Import existing Subversion project at URL into Git repository at REPOS_PATH.
-When Git repository at REPOS_PATH does not exist it will be created.
-
-Upon import completion optionally one may get rid of SubGit-specific files
-by running 'subgit uninstall --purge REPOS_PATH' or start continuous synchronization
-by running 'subgit install REPOS_PATH'.
-
-Valid options:
-
---svn-url URL           : specify URL of remote Subversion repository
---default-domain DOMAIN : domain to be used to generate Git committer name by SVN committer name
-if there's no corresponding rule in authors file
---minimal-revision REV  : specify Subversion revision REV to start translation from;
-revisions less than REV would not be translated
---authors-file FILE     : authors mapping file used to map Subversion committers names
-to Git committers names
--T [--trunk] PATH       : path to a directory that plays the role of SVN trunk,
-relative to project root specified by --svn-url
--b [--branches] PATH    : path to a directory that plays the role of SVN branches directory,
-relative to project root specified by --svn-url
--t [--tags] PATH        : path to a directory that plays the role of SVN tags directory,
-relative to project root specified by --svn-url
---username SVN_USERNAME : username to use to access Subversion repository;
-if no username is specified, SubGit may prompt for it later
---password SVN_PASSWORD : password to use to access Subversion repository;
-if no password is specified, SubGit may prompt for it later
---non-interactive       : do no interactive prompting
---trust-server-cert     : accept unknown SSL server certificates without
-prompting (but only with '--non-interactive')
---private-key           : path to private key file to use to access Subversion repository;
-if no path is specified, SubGit may prompt for it later
---private-key-passphrase: passphrase for private key file to use to access Subversion repository;
-if no passphrase is specified, SubGit may ask for it later
-
-In most cases, defaults along with pre-existing Subversion authentication storage would be sufficient and only Subversion project URL have to be specified as an import command argument:
-
-$ subgit import --non-interactive --svn-url http://svn.svnkit.com/repos/sqljet sqljet.git
-SubGit version 2.0.0-EAP ('Patrick') build #2552
-This is an EAP build, which you may not like to use in production environment.
-
-Translating Subversion revisions to Git commits...
-
-Subversion revisions translated: 1292.
-Total time: 579 seconds.
-
-IMPORT SUCCESSFUL
-
-You may interrupt import operation with Ctrl-C and resume it later. Also, it is possible to enable synchronization by running subgit install GIT_REPOS upon import completion.
-
-Chapter 5. Creating Git Mirror of a Subversion Repository
-
-5.1. Installation Stages
-To translate Subversion repository to Git and to enable bi-directional synchronization, one have to use SubGit to create and configure Git repository. Mirror creation consists of three stages: repository creation, configuration adjustment and installation.
-
-Figure 5.1. Mirror Creation Stages
-
-Mirror Creation Stages
-At configuration stage SubGit creates Git repositories ans stored default mirror configuration into it. Then user has a chance to adjust generated configuration. At the installation stage SubGit performs actual translation of existing Subversion revisions into Git commits and then turns synchronization on. Figure 5.1 schematically shows SubGit installation stages.
 
 5.2. Run subgit configure
 Run SubGit configure command to make SubGit create empty bare Git repository and link it with a project in Subversion
