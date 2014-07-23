@@ -35,6 +35,8 @@ pre {font-family: monospace;}
 #booknav .subchapter {margin-left: 35px;}
 .current {font-family: 'allerbold', sans-serif;}
 
+h1.readme {display: inline; font-family: 'allerbold', sans-serif; font-size: 35px;}
+
 #content h1{text-transform:uppercase; text-align:center; font-family: 'allerbold', sans-serif; font-size:44px;}
 #content h2{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px;}
 #content h5{font-size:20px; color:#807969;font-family: 'allerbold', sans-serif; margin-bottom:16px; line-height:28px;}
