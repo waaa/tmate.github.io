@@ -1,0 +1,55 @@
+---
+layout: default
+title: "3.2. Branches and Tags mapping"
+category: subchapter
+weight: 5
+---
+## 3.2. Branches and Tags mapping
+For each project mapped to a Git repository, branches and tags are mapped to the corresponding references in the Git repository. SubGit distinguishes the following folders in Subversion project as branches or tags:
+
++ trunk folder
++ folders in the dedicated branches folder
++ folders in the dedicated shelves folder
++ folders in the dedicated tags folder
+
+Shelves are special kind of branches used by SubGit to represent Git anonymous branches in Subversion repository.
+
+Each folder is mapped to the reference (branch or tag) in the Git repository. For trunk folder the mapping is one-to-one as there could be only one trunk folder (as well as only one master reference in Git) and for other folders wildcard mapping is used. Default mapping and corresponding SubGit configuration file part is shown in Figure 3.5 and Figure 3.6.
+
+Whenever project uses standard folder names (i.e. trunk, branches and tags), SubGit would automatically detect and configure mapping for that project. Otherwise configuration would have to be manually adjusted to include proper paths and references names.
+
+**Figure 3.5. Default Branches and Tags Mapping**
+![Default Branches and Tags Mapping]({{ site.baseurl }}/img/mapping.png)
+
+**Figure 3.6. SubGit configuration file (default branches and tags mapping)**
+
+    [svn]
+    url = http://host/svn/repos/project1
+
+    # branches and tags mapping in form of
+    # branchKind=Subversion-Path-Pattern:Git-Reference-Pattern
+
+    trunk = trunk:refs/heads/master
+    branches = branches/*:refs/heads/*
+    shelves = shelves/*:refs/shelves/*
+    tags = tags/*:refs/tags/*
+
+Notice that project2 in Figure 3.3 features non-standard names for *trunk*, *branches* and *tags* folders. Figure 3.7 shows mapping configuration for that project.
+
+**Figure 3.7. SubGit configuration file (non-standard folders names)**
+
+    [svn]
+    url = http://host/svn/repos/project2
+
+    # branches and tags mapping in form of
+    # branchKind=Subversion-Path-Pattern:Git-Reference-Pattern
+
+    trunk = main:refs/heads/master
+    branches = versions/*:refs/heads/*
+    shelves = shelves/*:refs/shelves/*
+    tags = stamps/*:refs/tags/*
+
+Figure 3.8 outlines combined project and branches mappings for two projects Subversion repository.
+
+**Figure 3.8. Project and Branches Mapping**
+![Project and Branches Mapping]({{ site.baseurl }}/img/mapping.png)
