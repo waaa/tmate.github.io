@@ -6,11 +6,11 @@ SubGit markdown syntax:
 
 \#\# Chapter caption
 
-\**italic or emphasized*\*
+\* *italic or emphasized* \*
 
-\*\***strong or bold**\*\* = **strong or bold**
+\*\* **strong or bold** \*\*
 
-![alt text]({{ site.baseurl }}/img/image_name.png) is how you insert an image, where you change only "alt text" which is text to be inserted into alt="" attribute of image tag and "image_name.png" which is file name located in /img/ directory.
+\!\[alt text\]\(\{\{ site.baseurl \}\}/img/image_name.png\) is how you insert an image, where you change only "alt text" which is text to be inserted into alt="" attribute of image tag and "image_name.png" which is file name located in /img/ directory.
 
 Each paragraph starts with just a new line.
 

@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-
-{% include nav.html %}
-
-{% for i in site.posts reversed %}
-	<div class="wrapper" id="{{ i.chid }}">
-		{{ i.content }}
-	</div>
-{% endfor %}
+{% include nav.html %}{% for weight1 in (1..site.pages.size) %}{% for i in site.pages %}{% if i.weight == weight1 %}
+<div class="wrapper" id="{{ i.weight }}">
+	{{ i.content }}
+</div>{% endif %}{% endfor %}{% endfor %}

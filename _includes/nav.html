@@ -1,9 +1,7 @@
 <div id="booknav">
-	<ul>
-		{% for chapt in site.posts reversed %}
-				<li class="{{ chapt.category }}">
-					<a href="#{{ chapt.chid }}">{{chapt.title}}</a>
-				</li>
-		{% endfor %}
+	<ul>{% for weight in (1..site.pages.size) %}{% for chapt in site.pages %}{% if chapt.weight == weight %}
+		<li class="{{ chapt.category }}">
+			<a href="#{{ chapt.weight }}">{{chapt.title}}</a>
+		</li>{% endif %}{% endfor %}{% endfor %}
 	</ul>
 </div>
