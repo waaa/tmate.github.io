@@ -35,6 +35,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/0000-11-01-Chapter11.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/0000-12-01-Chapter12.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/0000-12-02-Chapter13.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md" afterPath="$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/Installation Stages.md" afterPath="$PROJECT_DIR$/documentation/remote-book/Installation Stages.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" afterPath="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -75,7 +77,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="143" selection-end="143" vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="924">
+            <state line="6" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="924">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Installation Stages.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation/remote-book/Installation Stages.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="3" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -84,7 +95,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="102" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1140">
+            <state line="48" column="126" selection-start="3172" selection-end="3172" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -103,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_posts/0000-09-01-Chapter9.md" />
-        <option value="$PROJECT_DIR$/_posts/0000-10-01-Chapter10.md" />
         <option value="$PROJECT_DIR$/_posts/0000-11-01-Chapter11.md" />
         <option value="$PROJECT_DIR$/_posts/0000-12-01-Chapter12.md" />
         <option value="$PROJECT_DIR$/_posts/0000-13-01-Chapter13.md" />
@@ -149,10 +158,12 @@
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Subversion Projects Location.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Branches and Tags mapping.md" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Authors Mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/Installation Stages.md" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -644,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="102" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/Branches and Tags mapping.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="2411" selection-end="2411" vertical-scroll-proportion="0.8663102" vertical-offset="0" max-vertical-offset="935">
@@ -661,6 +665,13 @@
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/Authors Mapping.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="7" selection-start="983" selection-end="983" vertical-scroll-proportion="0.4171123" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="216" selection-end="216" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
@@ -677,21 +688,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="61" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.64171124" vertical-offset="0" max-vertical-offset="935">
+        <state line="47" column="6" selection-start="3546" selection-end="3546" vertical-scroll-proportion="0.7540107" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="216" selection-end="216" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+        <state line="6" column="3" selection-start="114" selection-end="114" vertical-scroll-proportion="0.094936706" vertical-offset="0" max-vertical-offset="948">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="126" selection-start="3172" selection-end="3172" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/Installation Stages.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="143" selection-end="143" vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="924">
+        <state line="6" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.097402595" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>

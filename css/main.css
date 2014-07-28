@@ -45,8 +45,8 @@ blockquote {padding-bottom: 10px;}
 blockquote p {border: 2px solid #80a0b4; padding: 30px;}
 
 #content h1{text-transform:uppercase; text-align:center; font-family: 'allerbold', sans-serif; font-size:44px;}
-#content h2{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px; color: #66869a}
-#content h3{font-family: 'allerbold', sans-serif; font-size:20px;text-transform:uppercase; margin-bottom:26px;}
+#content h2{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px; color: #66869a;}
+#content h3{font-family: 'allerbold', sans-serif; font-size:30px;text-transform:uppercase; margin-bottom:26px; color: #66869a;}
 #content h5{font-size:18px; color:#807969;font-family: 'allerbold', sans-serif; margin-bottom:16px; line-height:28px;}
 #content a{color:#80a0b4;}
 #content img{width: 645px; margin-top: 20px;}

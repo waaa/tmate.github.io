@@ -44,8 +44,8 @@ In most cases, defaults along with pre-existing Subversion authentication storag
 
     Translating Subversion revisions to Git commits...
 
-    Subversion revisions translated: 1292.
-    Total time: 579 seconds.
+      Subversion revisions translated: 1292.
+      Total time: 579 seconds.
 
     IMPORT SUCCESSFUL
 

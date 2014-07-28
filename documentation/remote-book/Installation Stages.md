@@ -4,7 +4,7 @@ title: "5.1. Installation Stages"
 category: subchapter
 weight: 9
 ---
-5.1. Installation Stages
+### 5.1. Installation Stages
 To translate Subversion repository to Git and to enable bi-directional synchronization, one have to use SubGit to create and configure Git repository. Mirror creation consists of three stages: repository creation, configuration adjustment and installation.
 
 Figure 5.1. Mirror Creation Stages
