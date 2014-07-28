@@ -65,6 +65,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/remote-book/Uninstalling SubGit.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/remote-book/Useful Links and Contacts.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/documentation/remote-book/Writing Hooks.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -102,60 +107,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.2.Run subgit configure.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="34" selection-end="34" vertical-scroll-proportion="0.016216217" vertical-offset="0" max-vertical-offset="925">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.3.Adjust configuration overview.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.4.Adjust configuration provide authors mapping.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.5.Adjust configuration path encoding.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="5.6.Adjust configuration branches mapping.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="645">
+            <state line="25" column="54" selection-start="862" selection-end="862" vertical-scroll-proportion="-13.888889" vertical-offset="0" max-vertical-offset="645">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="27" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.48128343" vertical-offset="0" max-vertical-offset="935">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -235,24 +204,24 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Installation Stages.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/1.Overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.1.Subversion Projects Location.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.2.Branches and Tags mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.3.Authors Mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/4.One-time Import from Subversion to Git.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.7.Adjust configuration credentials.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.8.Credentials and Subversion pre-revprop-change hook.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.Mirror Configuration.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.1.Installation Stages.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -719,49 +688,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="9" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.7.Adjust configuration credentials.md">
@@ -847,6 +778,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="34" selection-end="34" vertical-scroll-proportion="0.016216217" vertical-offset="0" max-vertical-offset="925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.Creating Git Mirror.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.5756579" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="38" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.5756579" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="873" selection-end="873" vertical-scroll-proportion="0.46052632" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.11513158" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="86" selection-start="2799" selection-end="2799" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1125">
@@ -854,16 +827,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state line="25" column="54" selection-start="862" selection-end="862" vertical-scroll-proportion="-13.888889" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="34" selection-end="34" vertical-scroll-proportion="0.016216217" vertical-offset="0" max-vertical-offset="925">
+        <state line="30" column="27" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.48128343" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
