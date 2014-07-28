@@ -35,6 +35,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/0000-11-01-Chapter11.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/0000-12-01-Chapter12.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/0000-12-02-Chapter13.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" afterPath="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
@@ -74,21 +75,18 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="229" selection-end="229" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+            <state line="4" column="41" selection-start="141" selection-end="182" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Overview.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/Overview.md">
+      <file leaf-file-name="One-time Import from Subversion to Git.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="59" selection-start="2679" selection-end="2679" vertical-scroll-proportion="0.52863437" vertical-offset="0" max-vertical-offset="908">
+            <state line="36" column="102" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.5775401" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -114,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_posts/0000-08-01-Chapter8.md" />
         <option value="$PROJECT_DIR$/_posts/0000-09-01-Chapter9.md" />
         <option value="$PROJECT_DIR$/_posts/0000-10-01-Chapter10.md" />
         <option value="$PROJECT_DIR$/_posts/0000-11-01-Chapter11.md" />
@@ -133,7 +130,6 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/0000-03-03-Chapter3.2.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/0000-03-04-Chapter3.3.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/SubGit Features.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/0000-12-02-Chapter13.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/0000-12-01-Chapter12.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/0000-11-01-Chapter11.md" />
@@ -165,6 +161,8 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/Branches and Tags mapping.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Authors Mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/Overview.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
       </list>
     </option>
   </component>
@@ -662,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="229" selection-end="229" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="102" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1140">
@@ -698,6 +689,20 @@
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="141" selection-end="182" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="102" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.5775401" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
