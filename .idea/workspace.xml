@@ -72,19 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="141" selection-end="182" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="One-time Import from Subversion to Git.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="102" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.5775401" vertical-offset="0" max-vertical-offset="935">
+            <state line="5" column="41" selection-start="240" selection-end="240" vertical-scroll-proportion="0.08116883" vertical-offset="0" max-vertical-offset="924">
               <folding />
             </state>
           </provider>
@@ -156,13 +147,13 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/0000-04-01-Chapter4.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Mirror Configuration.md" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Subversion Projects Location.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Branches and Tags mapping.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Authors Mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -646,13 +637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="216" selection-end="216" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/Subversion Projects Location.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="8" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.6737968" vertical-offset="0" max-vertical-offset="935">
@@ -691,16 +675,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="141" selection-end="182" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+        <state line="40" column="61" selection-start="3269" selection-end="3269" vertical-scroll-proportion="0.64171124" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md">
+    <entry file="file://$PROJECT_DIR$/_includes/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="102" selection-start="2961" selection-end="2961" vertical-scroll-proportion="0.5775401" vertical-offset="0" max-vertical-offset="935">
+        <state line="4" column="8" selection-start="216" selection-end="216" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="41" selection-start="240" selection-end="240" vertical-scroll-proportion="0.08116883" vertical-offset="0" max-vertical-offset="924">
           <folding />
         </state>
       </provider>
