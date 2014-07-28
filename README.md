@@ -3,11 +3,11 @@ SubGit Documentation Markdown
 
 Each Chapter .md file must start from following YAML header:
 
-\-\-\-
-layout: default (always stays *default*)
-title: "Chapter title" (a copy of chapter title, it is important to put the title in quotes)
-category: chapter / subchapter (use *chapter* for main chapters and *subchapter* for subchapters like 3.1)
-weight: 1 (a unique number to each chapter file)
+\-\-\-<br>
+layout: default (always stays *default*)<br>
+title: "Chapter title" (a copy of chapter title, it is important to put the title in quotes)<br>
+category: chapter / subchapter (use *chapter* for main chapters and *subchapter* for subchapters like 3.1)<br>
+weight: 1 (a unique number to each chapter file)<br>
 \-\-\-
 
 Chapter title prefix - \#\#Chapter 1. Overview
@@ -24,9 +24,9 @@ Each paragraph starts with just a new line.
 
 Unordered list are created by a block of lines starting with "+" symbol followed by a single space:
 
-\+ Item one
-\+ Item two
-\+ Item n
+\+ Item one<br>
+\+ Item two<br>
+\+ Item n<br>
 
 Except for the blocks of code, use underscore symbol with backslash: SVN\_PATH > SVN\\\_PATH
 
