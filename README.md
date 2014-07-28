@@ -30,6 +30,8 @@ Unordered list are created by a block of lines starting with "+" symbol followed
 
 Except for the blocks of code, use underscore symbol with backslash: SVN\_PATH > SVN\\\_PATH
 
+When you want to insert a <br /> using Markdown, you end a line with two or more spaces, then type return.
+
 Markdown provides backslash escapes for the following characters:
 
 \\   backslash  
