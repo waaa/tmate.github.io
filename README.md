@@ -28,6 +28,10 @@ Unordered list are created by a block of lines starting with "+" symbol followed
 \+ Item two<br>
 \+ Item n<br>
 
+To create a clickable email address, simply put it into angle brackets like this \<example@domain.com\>
+
+URLs have following format [click here](http://click.here.com) or you can just wrap the link into angle brackets if the text and destination are the same. Thus \<http://domain.com\> would create \<a href="http://domain.com"\>http://domain.com\</a\>
+
 Except for the blocks of code, use underscore symbol with backslash: SVN\_PATH > SVN\\\_PATH
 
 When you want to insert a <br /> using Markdown, you end a line with two or more spaces, then type return.
