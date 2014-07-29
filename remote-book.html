@@ -2,7 +2,7 @@
 layout: default
 ---
 {% include nav-remote.html %}
-{% for weight1 in (1..site.pages.size) %}{% for i in site.pages %}{% if i.weight == weight1 and i.booktype == "remote" %}
+{% for weight1 in (1..site.pages.size) %}{% for i in site.pages %}{% if i.weight == weight1 and i.booktype == 'remote' %}
 <div class="wrapper" id="{{ i.weight }}">
 {{ i.content }}
 </div>{% endif %}{% endfor %}{% endfor %}
