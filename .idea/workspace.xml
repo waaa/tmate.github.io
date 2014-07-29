@@ -39,6 +39,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/8.Registering SubGit.md" afterPath="$PROJECT_DIR$/documentation/remote-book/8.Registering SubGit.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/9.Translation Limitations.md" afterPath="$PROJECT_DIR$/documentation/remote-book/9.Translation Limitations.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -114,10 +115,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.032397408" vertical-offset="0" max-vertical-offset="926">
+            <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="34" selection-end="34" vertical-scroll-proportion="0.015789473" vertical-offset="0" max-vertical-offset="950">
               <folding />
             </state>
           </provider>
@@ -148,7 +158,6 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/Installation Stages.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.1.Subversion Projects Location.md" />
@@ -187,6 +196,7 @@
         <option value="$PROJECT_DIR$/documentation/book/1.Overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/1.Overview.md" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -592,13 +602,6 @@
         <state line="38" column="3" selection-start="920" selection-end="920" vertical-scroll-proportion="0.60126585" vertical-offset="0" max-vertical-offset="948" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="33" selection-end="33" vertical-scroll-proportion="0.015789473" vertical-offset="0" max-vertical-offset="950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
@@ -900,7 +903,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.032397408" vertical-offset="0" max-vertical-offset="926">
+        <state line="2" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="34" selection-end="34" vertical-scroll-proportion="0.015789473" vertical-offset="0" max-vertical-offset="950">
           <folding />
         </state>
       </provider>
