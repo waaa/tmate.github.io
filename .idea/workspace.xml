@@ -5,12 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53311f0c-8d3d-4951-addc-624eb66f9563" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" afterPath="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/book.html" afterPath="$PROJECT_DIR$/book.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/2. Subgit Features.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/3. Translation Configuration Overview.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/3.1. Projects mapping.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/3.2. Branches and Tags mapping.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/3.3. Authors Mapping.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/4. Installing SubGit into Repository.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/4.1. Installation Stages.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/4.2. Setup Service Accounts.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/4.3. Run subgit configure.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentation/book/4.4. Adjust configuration.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/book/1.Overview.md" afterPath="$PROJECT_DIR$/documentation/book/1. Overview.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/1.Overview.md" afterPath="$PROJECT_DIR$/documentation/remote-book/1. Overview.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/10.Backup.md" afterPath="$PROJECT_DIR$/documentation/remote-book/10. Backup.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/11.System Requirements.md" afterPath="$PROJECT_DIR$/documentation/remote-book/11. System Requirements.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/12.Installing SubGit Tool.md" afterPath="$PROJECT_DIR$/documentation/remote-book/12. Installing SubGit Tool.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/13.Useful Links and Contacts.md" afterPath="$PROJECT_DIR$/documentation/remote-book/13. Useful Links and Contacts.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" afterPath="$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/3.1.Subversion Projects Location.md" afterPath="$PROJECT_DIR$/documentation/remote-book/3.1. Subversion Projects Location.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/3.2.Branches and Tags mapping.md" afterPath="$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/3.3.Authors Mapping.md" afterPath="$PROJECT_DIR$/documentation/remote-book/3.3. Authors Mapping.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/3.Mirror Configuration.md" afterPath="$PROJECT_DIR$/documentation/remote-book/3. Mirror Configuration.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/4.One-time Import from Subversion to Git.md" afterPath="$PROJECT_DIR$/documentation/remote-book/4. One-time Import from Subversion to Git.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.1.Installation Stages.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.10.Run subgit install.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.10. Run subgit install.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.11.Background translation process.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.11. Background translation process.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.12.Recommended client-side Git configuration.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.12. Recommended client-side Git configuration.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.2. Run subgit configure.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.3. Adjust configuration overview.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.4. Adjust configuration provide authors mapping.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.5. Adjust configuration path encoding.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.6. Adjust configuration branches mapping.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.7.Adjust configuration credentials.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.7. Adjust configuration credentials.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.8.Credentials and Subversion pre-revprop-change hook.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.8. Credentials and Subversion pre-revprop-change hook.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.9.Adjust configuration other options.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5.9. Adjust configuration other options.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/5.Creating Git Mirror.md" afterPath="$PROJECT_DIR$/documentation/remote-book/5. Creating Git Mirror.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/6.1.Writing Hooks.md" afterPath="$PROJECT_DIR$/documentation/remote-book/6.1. Writing Hooks.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/6.2.Applying configuration changes.md" afterPath="$PROJECT_DIR$/documentation/remote-book/6.2. Applying configuration changes.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/6.Changing SubGit Configuration.md" afterPath="$PROJECT_DIR$/documentation/remote-book/6. Changing SubGit Configuration.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/7.Uninstalling SubGit.md" afterPath="$PROJECT_DIR$/documentation/remote-book/7. Uninstalling SubGit.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/8.Registering SubGit.md" afterPath="$PROJECT_DIR$/documentation/remote-book/8. Registering SubGit.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/documentation/remote-book/9.Translation Limitations.md" afterPath="$PROJECT_DIR$/documentation/remote-book/9. Translation Limitations.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remote-book.html" afterPath="$PROJECT_DIR$/remote-book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jkl-pages.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,43 +78,16 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="41" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+            <state line="49" column="24" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remote-book.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/remote-book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="33" selection-start="267" selection-end="267" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="271" selection-end="271" vertical-scroll-proportion="0.11339093" vertical-offset="0" max-vertical-offset="926">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.Overview.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/documentation/book/1.Overview.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+            <state line="23" column="6" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.37787515" vertical-offset="0" max-vertical-offset="913">
               <folding />
             </state>
           </provider>
@@ -91,15 +106,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Subversion Projects Location.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Branches and Tags mapping.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Authors Mapping.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Overview.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/One-time Import from Subversion to Git.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Creating Git Mirror.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/Installation Stages.md" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.1.Subversion Projects Location.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.2.Branches and Tags mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.3.Authors Mapping.md" />
@@ -110,7 +117,6 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.7.Adjust configuration credentials.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.8.Credentials and Subversion pre-revprop-change hook.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.9.Adjust configuration other options.md" />
@@ -128,20 +134,29 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/11.System Requirements.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/12.Installing SubGit Tool.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/13.Useful Links and Contacts.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
-        <option value="$PROJECT_DIR$/_includes/nav-remote.html" />
-        <option value="$PROJECT_DIR$/_includes/nav-book.html" />
-        <option value="$PROJECT_DIR$/documentation/index.md" />
-        <option value="$PROJECT_DIR$/_includes/index.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/1.Overview.md" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md" />
-        <option value="$PROJECT_DIR$/documentation/1.Overview.md" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/book/1.Overview.md" />
-        <option value="$PROJECT_DIR$/remote-book.html" />
-        <option value="$PROJECT_DIR$/book.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/documentation/book/2.Subgit Features.md" />
+        <option value="$PROJECT_DIR$/documentation/book/3. Translation Configuration Overview.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/book/4. One-time Import from Subversion to Git.md" />
+        <option value="$PROJECT_DIR$/documentation/book/5. Creating Git Mirror of a Subversion Repository.md" />
+        <option value="$PROJECT_DIR$/documentation/book/5.2.Run Subgit configure.md" />
+        <option value="$PROJECT_DIR$/documentation/book/5.2. Run Subgit configure.md" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/documentation/book/5.1. Installation Stages.md" />
+        <option value="$PROJECT_DIR$/documentation/book/3.1. Projects mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/book/3.2. Branches and Tags mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/book/3.3. Authors Mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/book/4. Installing SubGit into Repository.md" />
+        <option value="$PROJECT_DIR$/documentation/book/4.1. Installation Stages.md" />
+        <option value="$PROJECT_DIR$/documentation/book/4.2. Setup Service Accounts.md" />
+        <option value="$PROJECT_DIR$/documentation/book/4.3. Run subgit configure.md" />
+        <option value="$PROJECT_DIR$/documentation/book/4.4. Adjust configuration.md" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -285,10 +300,6 @@
               <option name="myItemId" value="documentation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remote-book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -300,11 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="documentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,7 +451,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17944622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18104367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -456,8 +463,8 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3319672" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -477,9 +484,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993994" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -504,282 +511,231 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/remote-book.html">
+    <entry file="file://$PROJECT_DIR$/_includes/nav-remote.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225" />
+        <state line="14" column="6" selection-start="646" selection-end="646" vertical-scroll-proportion="0.22678186" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_includes/nav-book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remote-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="8" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120" />
+        <state line="5" column="180" selection-start="374" selection-end="374" vertical-scroll-proportion="0.08099352" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/remote-book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225" />
+        <state line="7" column="33" selection-start="267" selection-end="267" vertical-scroll-proportion="0.11339093" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/css/main.css">
+    <entry file="file://$PROJECT_DIR$/book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.44505495" vertical-offset="0" max-vertical-offset="1005" />
+        <state line="7" column="39" selection-start="269" selection-end="269" vertical-scroll-proportion="0.11339093" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/js/script.js">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="3" selection-start="920" selection-end="920" vertical-scroll-proportion="0.61755145" vertical-offset="0" max-vertical-offset="923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="3" selection-start="920" selection-end="920" vertical-scroll-proportion="0.60126585" vertical-offset="0" max-vertical-offset="948" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.1.Subversion Projects Location.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.2.Branches and Tags mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.3.Authors Mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.Mirror Configuration.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/4.One-time Import from Subversion to Git.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="105" selection-end="105" vertical-scroll-proportion="0.06403415" vertical-offset="0" max-vertical-offset="937">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.1.Installation Stages.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.2.Run subgit configure.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.3.Adjust configuration overview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.4.Adjust configuration provide authors mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.5.Adjust configuration path encoding.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.6.Adjust configuration branches mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.2222223" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.5555556" vertical-offset="0" max-vertical-offset="570" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.7.Adjust configuration credentials.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.8.Credentials and Subversion pre-revprop-change hook.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="122" selection-end="122" vertical-scroll-proportion="-2.2222223" vertical-offset="0" max-vertical-offset="630">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.3. Authors Mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3. Mirror Configuration.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/4. One-time Import from Subversion to Git.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.2. Run subgit configure.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.3. Adjust configuration overview.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.4. Adjust configuration provide authors mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.5. Adjust configuration path encoding.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.7. Adjust configuration credentials.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.8. Credentials and Subversion pre-revprop-change hook.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.9.Adjust configuration other options.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.9. Adjust configuration other options.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/13. Useful Links and Contacts.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.11.Background translation process.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/12. Installing SubGit Tool.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.12.Recommended client-side Git configuration.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.Creating Git Mirror.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/6.1.Writing Hooks.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/6.2.Applying configuration changes.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/6.Changing SubGit Configuration.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/7.Uninstalling SubGit.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/8.Registering SubGit.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/9.Translation Limitations.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/10.Backup.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/11.System Requirements.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/12.Installing SubGit Tool.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.2222223" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864" />
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.10.Run subgit install.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/11. System Requirements.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="91" selection-end="91" vertical-scroll-proportion="0.06403415" vertical-offset="0" max-vertical-offset="937">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/10. Backup.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/9. Translation Limitations.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/8. Registering SubGit.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/7. Uninstalling SubGit.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/6. Changing SubGit Configuration.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/6.2. Applying configuration changes.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/6.1. Writing Hooks.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5. Creating Git Mirror.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="904" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.12. Recommended client-side Git configuration.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.11. Background translation process.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.10. Run subgit install.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="529" selection-end="529" vertical-scroll-proportion="0.21058315" vertical-offset="0" max-vertical-offset="926">
-          <folding />
-        </state>
+        <state line="17" column="10" selection-start="620" selection-end="620" vertical-scroll-proportion="0.27537796" vertical-offset="0" max-vertical-offset="926" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="53" selection-start="80" selection-end="80" vertical-scroll-proportion="0.048596114" vertical-offset="0" max-vertical-offset="926">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="304" selection-end="304" vertical-scroll-proportion="0.11500548" vertical-offset="0" max-vertical-offset="913">
+        <state line="3" column="4" selection-start="49" selection-end="49" vertical-scroll-proportion="0.04928806" vertical-offset="0" max-vertical-offset="913">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+        <state line="39" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.63174945" vertical-offset="0" max-vertical-offset="926">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/1.Overview.md">
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.1. Subversion Projects Location.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.11375948" vertical-offset="0" max-vertical-offset="923">
+        <state line="7" column="95" selection-start="231" selection-end="231" vertical-scroll-proportion="0.17073171" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.6. Adjust configuration branches mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="255" selection-start="750" selection-end="750" vertical-scroll-proportion="0.48979592" vertical-offset="27" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
@@ -787,72 +743,96 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav-remote.html">
+    <entry file="file://$PROJECT_DIR$/documentation/book/2. Subgit Features.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="646" selection-end="646" vertical-scroll-proportion="0.22678186" vertical-offset="0" max-vertical-offset="926">
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/nav-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="180" selection-start="374" selection-end="374" vertical-scroll-proportion="0.08099352" vertical-offset="0" max-vertical-offset="926">
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/2.SubGit Features.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="60" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.49626467" vertical-offset="0" max-vertical-offset="937">
+        <state line="0" column="0" selection-start="0" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/documentation/book/3. Translation Configuration Overview.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="405">
+        <state line="0" column="0" selection-start="0" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/1. Overview.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="1628" selection-end="1628" vertical-scroll-proportion="0.32017076" vertical-offset="0" max-vertical-offset="937">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/3.1. Projects mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.5602988" vertical-offset="0" max-vertical-offset="937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/4. Installing SubGit into Repository.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="143" selection-end="143" vertical-scroll-proportion="0.094736844" vertical-offset="0" max-vertical-offset="950">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/3.2. Branches and Tags mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1267" selection-end="1339" vertical-scroll-proportion="0.34364995" vertical-offset="8" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/4.1. Installation Stages.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="46" selection-start="544" selection-end="544" vertical-scroll-proportion="0.20811099" vertical-offset="0" max-vertical-offset="937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/4.2. Setup Service Accounts.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="9" selection-start="3240" selection-end="3240" vertical-scroll-proportion="1.072572" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/4.3. Run subgit configure.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="85" selection-end="85" vertical-scroll-proportion="0.06403415" vertical-offset="0" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/3.3. Authors Mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="33" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.49626467" vertical-offset="0" max-vertical-offset="937">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/book/4.4. Adjust configuration.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="31" selection-start="4923" selection-end="4923" vertical-scroll-proportion="0.8719317" vertical-offset="938" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="41" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
+        <state line="49" column="24" selection-start="3325" selection-end="3325" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/13.Useful Links and Contacts.md">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="93" selection-end="93" vertical-scroll-proportion="0.06403415" vertical-offset="0" max-vertical-offset="937">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/book/1.Overview.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remote-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="267" selection-end="267" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="271" selection-end="271" vertical-scroll-proportion="0.11339093" vertical-offset="0" max-vertical-offset="926">
+        <state line="23" column="6" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.37787515" vertical-offset="0" max-vertical-offset="913">
           <folding />
         </state>
       </provider>

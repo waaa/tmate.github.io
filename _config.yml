@@ -1,4 +1,3 @@
-pygments: true
 markdown: redcarpet
 baseurl: /jkl-pages
 exclude: ['README.md']

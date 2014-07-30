@@ -40,13 +40,14 @@ h1.readme {display: inline; font-family: 'allerbold', sans-serif; font-size: 35p
 
 .highlight {font-family: monospace; background-color: #d0c8b4; color: #000; padding: 30px; font-size: 20px; margin-bottom: 30px;}
 code { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;}
-blockquote {border: 2px solid #80a0b4; padding: 30px 30px 0 30px; margin-bottom: 30px;}
+blockquote {border: 2px solid #80a0b4; padding: 25px 30px 0 30px; margin-bottom: 30px;}
 
 #content h1{text-transform:uppercase; text-align:center; font-family: 'allerbold', sans-serif; font-size:44px;}
 #content h2{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px; color: #66869a;}
 #content h3{font-family: 'allerbold', sans-serif; font-size:30px;text-transform:uppercase; margin-bottom:26px; color: #66869a;}
 #content h5{font-size:18px; color:#807969;font-family: 'allerbold', sans-serif; margin-bottom:16px; line-height:28px;}
 #content a{color:#80a0b4;}
+#content a[href="#up"] {}
 #content img{width: 645px; margin-top: 20px;}
 a.button_orange{background:#ff7244; border:2px solid #ff7244; border-radius:8px; padding:25px 50px; color:#fff !important; display:inline-block; margin-top:25px; text-decoration:none;font-family: 'allerregular', sans-serif; font-size:20px;font-weight: bold;}
 a.button_orange:hover{background:#fff; border:2px solid #ff7244; color:#ff7244 !important;}
