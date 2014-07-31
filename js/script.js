@@ -34,6 +34,10 @@
             return false;
         });
 
+        $("a[href='code']").on("click", function(event) {
+            event.preventDefault();
+        });
+
     }); //doc ready end
 
 })(jQuery);

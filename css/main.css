@@ -40,7 +40,8 @@ h1.readme {display: inline; font-family: 'allerbold', sans-serif; font-size: 35p
 
 .highlight {font-family: monospace; background-color: #d0c8b4; color: #000; padding: 30px; font-size: 20px; margin-bottom: 30px;}
 code { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;}
-blockquote {border: 2px solid #80a0b4; padding: 25px 30px 0 30px; margin-bottom: 30px;}
+blockquote {border: 2px solid #80a0b4; padding: 25px 30px 0 30px; margin-bottom: 30px; font-style: italic;}
+a[href="high"] {font-family: monospace; color: #807969 !important; text-decoration: none; cursor: text;}
 
 #content h1{text-transform:uppercase; text-align:center; font-family: 'allerbold', sans-serif; font-size:44px;}
 #content h2{font-family: 'allerbold', sans-serif; font-size:44px;text-transform:uppercase; margin-bottom:26px; color: #66869a;}

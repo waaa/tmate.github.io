@@ -18,6 +18,8 @@ Figure titles or any bold text must be wrapped in double asterisks - \*\*strong 
 
 Italic or emphasized text must be wrapped in single asterisks - \*italic or emphasized\*
 
+Optionally any word can be wrapped into \[\] followed by (high) element. In example a middle word would be highlighted. Normal [highlighted](high) normal.
+
 To insert an image use this \!\[alt text\]\(\{\{ site.baseurl \}\}/img/image_name.png\) where you can change only "alt text" which is the text to be inserted into alt="" attribute of an image tag and "/img/image_name.png" which is a file path and name of desired image.
 
 Each paragraph starts with just a new line.
