@@ -34,7 +34,7 @@
             return false;
         });
 
-        $("a[href='code']").on("click", function(event) {
+        $("a[href='high']").on("click", function(event) {
             event.preventDefault();
         });
 

@@ -38,6 +38,8 @@ Except for the blocks of code, use underscore symbol with backslash: SVN\_PATH >
 
 When you want to insert a <br /> using Markdown, you end a line with two or more spaces, then type return.
 
+`` for inline monospace.
+
 Markdown provides backslash escapes for the following characters:
 
 \\   backslash  
