@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="green_wrap">
+	<h1>Atlassian Stash How-To</h1>
+</div>
+{% include nav-stash.html %}
+{% for weight1 in (1..site.pages.size) %}{% for i in site.pages %}{% if i.weight == weight1 and i.booktype == 'stash' %}
+<div class="wrapper" id="{{ i.weight }}">
+{{ i.content }}
+</div>{% endif %}{% endfor %}{% endfor %}

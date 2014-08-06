@@ -34,10 +34,6 @@
             return false;
         });
 
-        $("a[href='high']").on("click", function(event) {
-            event.preventDefault();
-        });
-
     }); //doc ready end
 
 })(jQuery);

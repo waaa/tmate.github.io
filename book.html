@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<div class="green_wrap">
+	<h1>SubGit Book. v2.0.2</h1>
+</div>
 {% include nav-book.html %}
 {% for weight1 in (1..site.pages.size) %}{% for i in site.pages %}{% if i.weight == weight1 and i.booktype == 'book' %}
 <div class="wrapper" id="{{ i.weight }}">

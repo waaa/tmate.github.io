@@ -1,0 +1,15 @@
+<div id="booknav">
+	<ul>
+		<li><a href="{{ site.baseurl }}/remote-book.html"><strong>SubGit Remote Book</strong></a>
+			<ul style="margin-left: 20px; !important">{% for weight in (1..site.pages.size) %}{% for chapt in site.pages %}{% if chapt.weight == weight and chapt.booktype == "stash" %}
+				<li class="{{ chapt.category }}">
+					<a href="#{{ chapt.weight }}">{{chapt.title}}</a>
+				</li>{% endif %}{% endfor %}{% endfor %}
+			</ul>
+		</li>
+		<li><a href="{{ site.baseurl }}/book.html"><strong>SubGit Book</strong></a>
+		</li>
+		<li><a href="{{ site.baseurl }}/stash.html"><strong>Atlassian Stash How-To</strong></a>
+		</li>
+	</ul>
+</div>
