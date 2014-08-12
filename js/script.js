@@ -5,6 +5,7 @@
 
         var contentTop = [];
         var doc = $("#documentation");
+        var posit = $("#main_page_href_wrap")
 
         doc.find("#content").on("click", "ul li a", function() {
 
@@ -27,6 +28,33 @@
             }, 500);
 
             return false;
+        });
+
+        $(window).scroll(function(){
+
+
+
+            // Stick it
+            if(startPos <= $(window).scrollTop()) {
+                if($("#main_page_href_wrap").hasClass('on_top') == false) {
+                    $("#main_page_href_wrap").addClass('on_top');
+                }
+            }
+
+            // Unstick it
+            else {
+                $("#main_page_href_wrap").removeClass('on_top');
+            }
+
+            // Bottom fix
+            if((endPos+5) <= $(window).scrollTop()) {
+                $("#main_page_href_wrap").css({"top": "-"  + ($(window).scrollTop() - endPos - 5) + "px"});
+            }
+
+            // Bottom unfix
+            else {
+                $("#main_page_href_wrap").css({"top":"0"});
+            }
         });
 
         $("a[href='#up']").click(function() {
