@@ -26,22 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1. Overview.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="65" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.4790749" vertical-offset="0" max-vertical-offset="908">
+            <state line="50" column="26" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.6631016" vertical-offset="130" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -126,9 +114,9 @@
         <option value="$PROJECT_DIR$/documentation/stash/2. Go to Subversion Mirror settings.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/11. System Requirements.md" />
         <option value="$PROJECT_DIR$/documentation/stash/5. Adjust Authors Mapping.md" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/1. Overview.md" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -770,19 +758,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="65" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.4790749" vertical-offset="0" max-vertical-offset="908">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="26" selection-start="3443" selection-end="3443" vertical-scroll-proportion="0.6631016" vertical-offset="130" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
