@@ -27,7 +27,7 @@ pre {font-family: monospace;}
 .wrapper ul li p{color:#000;}
 .wrapper #footer{margin-top:50px !important;}
 
-#booknav {width: 945px; margin: 0 auto 20px; font-family: 'allerregular', sans-serif; font-size: 20px;}
+#booknav {width: 945px; margin: 0 auto 30px; font-family: 'allerregular', sans-serif; font-size: 20px; line-height: 28px;}
 #booknav ul li {list-style: none;}
 #booknav ul li a { text-decoration: none; }
 #booknav ul li a:hover { text-decoration: underline; }
