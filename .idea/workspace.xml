@@ -26,10 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.43850267" vertical-offset="25" max-vertical-offset="1125">
+            <state line="29" column="40" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1. Overview.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="65" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.4790749" vertical-offset="0" max-vertical-offset="908">
               <folding />
             </state>
           </provider>
@@ -87,8 +99,6 @@
         <option value="$PROJECT_DIR$/documentation/book/3. Translation Configuration Overview.md" />
         <option value="$PROJECT_DIR$/documentation/book/2. Subgit Features.md" />
         <option value="$PROJECT_DIR$/documentation/book/1. Overview.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/1. Overview.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.1. Subversion Projects Location.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.3. Authors Mapping.md" />
@@ -117,6 +127,8 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/11. System Requirements.md" />
         <option value="$PROJECT_DIR$/documentation/stash/5. Adjust Authors Mapping.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/1. Overview.md" />
       </list>
     </option>
   </component>
@@ -257,6 +269,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jkl-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jkl-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jkl-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jkl-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="remote-book" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,7 +468,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822084" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14217253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14323749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -539,19 +583,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="7" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.46524063" vertical-offset="0" max-vertical-offset="935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="2688" selection-end="2688" vertical-scroll-proportion="-18.88889" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="7" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.1. Subversion Projects Location.md">
@@ -732,9 +763,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="218" selection-start="950" selection-end="950" vertical-scroll-proportion="0.40106952" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.43850267" vertical-offset="25" max-vertical-offset="1125">
+        <state line="29" column="40" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="65" selection-start="2478" selection-end="2478" vertical-scroll-proportion="0.4790749" vertical-offset="0" max-vertical-offset="908">
           <folding />
         </state>
       </provider>
