@@ -26,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="42" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.6631016" vertical-offset="130" max-vertical-offset="1125">
+            <state line="50" column="42" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.1. Installation Stages.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="61" selection-start="488" selection-end="488" vertical-scroll-proportion="0.16042781" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -87,10 +96,8 @@
         <option value="$PROJECT_DIR$/documentation/book/3. Translation Configuration Overview.md" />
         <option value="$PROJECT_DIR$/documentation/book/2. Subgit Features.md" />
         <option value="$PROJECT_DIR$/documentation/book/1. Overview.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.3. Authors Mapping.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/4. One-time Import from Subversion to Git.md" />
-        <option value="$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.2. Run subgit configure.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.3. Adjust configuration overview.md" />
         <option value="$PROJECT_DIR$/documentation/remote-book/5.4. Adjust configuration provide authors mapping.md" />
@@ -117,6 +124,8 @@
         <option value="$PROJECT_DIR$/documentation/remote-book/1. Overview.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/documentation/remote-book/3.1. Subversion Projects Location.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md" />
+        <option value="$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md" />
       </list>
     </option>
   </component>
@@ -456,7 +465,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822084" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14323749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17571884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -573,11 +582,6 @@
         <state line="29" column="7" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.46524063" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="7" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.3. Authors Mapping.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="7" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
@@ -586,11 +590,6 @@
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/4. One-time Import from Subversion to Git.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="7" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.2. Run subgit configure.md">
@@ -748,9 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/2. SubGit Features.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="218" selection-start="950" selection-end="950" vertical-scroll-proportion="0.40106952" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
+        <state line="25" column="218" selection-start="950" selection-end="950" vertical-scroll-proportion="0.40106952" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/1. Overview.md">
@@ -765,14 +762,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.1. Subversion Projects Location.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="74" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.4331551" vertical-offset="0" max-vertical-offset="935">
+        <state line="27" column="90" selection-start="1371" selection-end="1387" vertical-scroll-proportion="0.4331551" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/3.2. Branches and Tags mapping.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="82" selection-start="2505" selection-end="2505" vertical-scroll-proportion="0.8663102" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="42" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.6631016" vertical-offset="130" max-vertical-offset="1125">
+        <state line="50" column="42" selection-start="3459" selection-end="3459" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation/remote-book/5.1. Installation Stages.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="488" selection-end="488" vertical-scroll-proportion="0.16042781" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
