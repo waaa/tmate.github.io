@@ -5,7 +5,8 @@
 
         var contentTop = [];
         var doc = $("#documentation");
-        var posit = $("#main_page_href_wrap")
+        var posit = $("#main_page_href_wrap");
+        var startPos = 0;
 
         doc.find("#content").on("click", "ul li a", function() {
 
