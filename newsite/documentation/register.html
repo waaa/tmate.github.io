@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+	<meta name="keywords" content="Git,Svn,SubGit,git-svn,Repository,VCS,DVCS,TMate" />
+	<meta charset="UTF-8" />
+	<title>Documentation&nbsp;::&nbsp;Register SubGit</title>
+	<meta name="description" content="Git-svn alternative for a safe migration from Svn to Git. Install once on the server side and use both Git and Svn as long as you like." />
+	<link href='../css/main.css' rel='stylesheet' type='text/css' />
+	<link href="https://plus.google.com/114128677298030695536" rel="publisher" />
+	<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-25451601-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+
+	</script>
+
+	<script type="text/javascript">
+		(function()
+		{var po = document.createElement("script");
+			po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(po, s);
+		})();
+	</script>
+</head>
+<body id="documentation">
+<div id="container">
+	<div id="top">
+		<div class="wrapper">
+			<a href="/"><div id="top_logo"></div></a>
+			<div id="top_menu">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../documentation.html">Documentation</a></li>
+					<li><a href="../download.html">Download</a></li>
+					<li><a href="../pricing.html">Pricing</a></li>
+					<li><a href="../contacts.html">Contact</a></li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+	<div id="content">
+		<div class="green_wrap">
+			<h1>Register SubGit</h1>
+		</div>
+		<div class="wrapper">
+    <h5>1. Obtain Registration Key</h5>
+    <p>Choose one of the option at the Registration page to obtain Free, Commercial or Open Source 
+    registration key. You will receive key file by email. It will look like:</p>
+<pre>Purchase ID: Company Name <user@company.com>
+Name: Company Name
+Committers per repository: 10
+Repositories: 10
+Supported versions: 1.*.*
+
+pjCssAR6cT4F3MnEDb0qKiEcb15UWlPBQwvrZCMlBmbihHrXVnZ2MyJKsUT
+...
+sSPIOdt1sz1@6d6PXEzybYJq1DOaZfXWzogM3jpB4M1hBA1LRJBbOE1qVWH
+
+</pre>
+
+    <h5>2. Upload Registration Key to the Host where SubGit is installed.</h5>
+    <p>Upload key you have received to the server where your repository is located. You may
+    upload the file, or copy and paste key file contents to the file on the server side.</p>
+    <h5>3. Register SubGit</h5>
+    <p>Register SubGit for your Git or Subversion repository by running the following command:</p>
+    <pre>$ <b>sudo</b> subgit register --key subgit.key /path/to/repository</pre>
+    <p>Note use of the <b>sudo</b> command above. Super user privileges are needed to store key securely. On Windows OS you
+may need to ensure that register command is run on behalf of the Administrator user.</p>
+    <p>Thank you for registering SubGit!</p>
+</div>
+</div>
+	<div id="footer">
+		<div class="wrapper">
+			<div id="footer_logo"></div>
+			<div id="footer_middle">
+				<div id="footer_tel">+27(0)12 991 0053</div>
+				<div id="footer_email"><a href="mailto:hello@subgit.com">hello@subgit.com</a></div>
+				<div class="clear"></div>
+				<a href="about_us.html">About us</a>
+				<div id="footer_copyright">
+					<p>Copyright © 2012-2013 TMate Software</p>
+					<p>Subversion and Git are names of Open Source version control system, which are developed independently. TMate Software and the website subgit.com are independent of Subversion and Git developers, and have no relationship, formal or informal.</p>
+				</div>
+			</div>
+			<div id="footer_social">
+				<a href="#" id="footer_stack">&nbsp;</a>
+				<a href="#" id="footer_gplus">&nbsp;</a>
+				<a href="#" id="footer_twitter">&nbsp;</a>
+				<a id="up" href="#up"></a>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+</body>
+
+</html>
