@@ -125,7 +125,7 @@ a.button_orange:hover{background:#fff; border:2px solid #ff7244; color:#ff7244 !
 #footer_logo{background:url(../img/footer_logo.jpg) no-repeat 0 3px; width:157px; height:155px; float:left;}
 #footer_middle{width:484px; margin:0 40px 0 84px; float:left; color:#fff;}
 #footer_tel{background:url(../img/tel_footer.png) no-repeat; height:34px; padding-left:28px; float:left; line-height:34px; margin-bottom:27px; font-size:18px;}
-#footer_email{background:url(../img/email_footer.png) no-repeat; height:22px; float:right; padding-left:40px; line-height:22px;}
+#footer_email{background:url(../img/email_footer.png) no-repeat; height:22px; padding-left:34px; float:left; line-height:22px; margin-bottom:27px; font-size:18px;}
 #footer_copyright p{margin-top:9px; font-size:11px;}
 #footer_twitter{background:url(../img/twitter_footer.png) no-repeat; width:52px; height:52px; text-decoration:none; display:block; float:right;}
 #footer_twitter:hover{background:url(../img/twitter_footer_on.png) no-repeat;}

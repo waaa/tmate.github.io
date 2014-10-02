@@ -3,11 +3,31 @@
 		<a href="/"><div id="top_logo"></div></a>
 		<div id="top_menu">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="documentation.html" class="active">Documentation</a></li>
-				<li><a href="download.html">Download</a></li>
-				<li><a href="pricing.html">Pricing</a></li>
-				<li><a href="contacts.html">Contact</a></li>
+        {% if page.active == "home" %}
+          <li><a href="index.html" class="active">Home</a></li>
+        {% else %}
+          <li><a href="index.html">Home</a></li>
+        {% endif %}
+        {% if page.active == "documentation" %}
+          <li><a href="documentation.html" class="active">Documentation</a></li>
+        {% else %}
+          <li><a href="documentation.html">Documentation</a></li>
+        {% endif %}
+        {% if page.active == "download" %}
+          <li><a href="download.html" class="active">Download</a></li>
+        {% else %}
+          <li><a href="download.html">Download</a></li>
+        {% endif %}
+        {% if page.active == "pricing" %}
+          <li><a href="pricing.html" class="active">Pricing</a></li>
+        {% else %}
+          <li><a href="pricing.html">Pricing</a></li>
+        {% endif %}
+        {% if page.active == "contacts" %}
+          <li><a href="contacts.html" class="active">Contact</a></li>
+        {% else %}
+          <li><a href="contacts.html">Contact</a></li>
+        {% endif %}
 			</ul>
 		</div>
 	</div>
