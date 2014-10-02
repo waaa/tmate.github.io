@@ -1,23 +1,250 @@
----
-layout: default
----
-<div class="green_wrap">
-	<h1>SubGit Book</h1>
-</div>
-<div class="wrapper">
+<!doctype html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta name="keywords" content="Git,Svn,SubGit,git-svn,Repository,VCS,DVCS,TMate" />
+    <meta charset="UTF-8">
+    <title>SubGit&nbsp;::&nbsp;Svn To Git Migration</title>
+    <meta name="description" content="Git-svn alternative for a safe migration from Svn to Git. Install once on the server side and use both Git and Svn as long as you like." />
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
+    <link href="https://plus.google.com/114128677298030695536" rel="publisher" />
+    <script type="text/javascript" src="js/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/main_page_script.js"></script>
+    <script type="text/javascript">
 
-<p>SubGit Book comes in two flavors - one explains how to install SubGit into a Subversion repository and another explains how to mirror a remote Subversion repository. Choose the one to read depending on what you'd like to do:</p>
-<p style="margin-left: 30px;">Create a Git repository that will mirror remote Subversion repository accessible over network. Translation from Git to Subversion is initiated on push operation and translation from Subversion to Git is performed asynchronously in background.</p>
-<ul><li> Read <a href="remote-book.html">SubGit 'Remote' Book.</a></li></ul>
-<p style="margin-left: 30px;">Install SubGit into Subversion repository on the server side. Both Subversion and Git repositories reside on the same server. Translation in both directions is initiated instantly and introduces minimal overhead.</p>
-<ul><li>Read <a href="book.html"> SubGit 'Local' Book.</a></li></ul>
-<p  style="margin-left: 30px;">Perform one-time import of an existing Subversion project into Git. No synchronization is required.</p>
-<ul><li>Read a chapter on <a href="remote-book.html#7">One-time Import</a>.</li></ul>
-<p>SubGit Books cover everything you need to know to install SubGit and to adjust it to the specifics of your environment. With examples and pictorial diagrams included.</p>
-<p><a href="release-notes.html">SubGit 2.0 release notes</a></p>
-<p>Brief information on what has been added in SubGit 2.0 since 1.0 version (<a href="release-notes.html">continue</a>).</p>
-<p><a href="gitsvn.html">Comparison with Git-Svn</a></p>
-<p>From the very beginning, SubGit was developed as an alternative to <a href="http://schacon.github.com/git/git-svn.html">Git-Svn</a>, so quite naturally SubGit does resolve many of the Git-Svn limitations (<a href="gitsvn.html">continue</a>).
-<p><a href="http://subgit.com/documentation/register.html">Register SubGit</a></p>
-<p>Without a registration you may use SubGit for evaluation purposes as long as you like. For production use choose from Free, Commercial or Open Source registration options, <a href="http://subgit.com/register.html">obtain registration key</a> and follow <a href="http://subgit.com/documentation/register.html">registration instructions</a>.</p>
-</div>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-25451601-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+    </script>
+    <script type="text/javascript">
+(function()
+ {var po = document.createElement("script");
+   po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+   var s = document.getElementsByTagName("script")[0];
+   s.parentNode.insertBefore(po, s);
+ })();
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="top">
+        <div class="wrapper">
+          <a href="/"><div id="top_logo"></div></a>
+          <div id="top_menu">
+            <ul>
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="documentation.html">Documentation</a></li>
+              <li><a href="download.html">Download</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="contacts.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="main_page_big_pic">
+        <div class="wrapper">
+          <div id="main_page_big_pic_text_wrap">
+            <div id="main_page_big_pic_text"> Migrate From Subversion<br> to Git	</div>
+            <a href="download.html">Download Subgit v2.0.1</a>
+          </div>
+          <div id="main_page_big_pic_cir1">
+            <div id="main_page_big_pic_cir2">
+              <div id="main_page_big_pic_cir3">
+                <div id="main_page_big_pic_logo"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="wrapper">
+          <h1 style="margin:61px 0 12px;">What is Subgit?</h1>
+          <p style="text-align:center;">SubGit is a tool for a smooth, stress-free SVN to Git migration. Create writable Git mirror
+          of a local or remote Subversion repository and use both Subversion and Git as long as you like. You may also do a fast one-time import from Subversion to Git or use SubGit
+          within Atlassian Stash.</p>
+        </div>
+        <div class="spacer_45"></div>
+
+        <!-- main wrapper container -->
+        <div class="main_page_href_wrap_container">
+          <div id="main_page_href_wrap">
+            <div class="wrapper">
+              <ul>
+                <li><a href="#subgit_mirror">GIT-SVN<br>mirror</a></li>
+                <li><a href="#subgit_import">GIT-SVN<br>Import</a></li>
+                <li><a href="#atlassian_stash">Atlassian<br>stash add-on</a></li>
+                <li><a href="#pro_support">Professional<br>support</a></li>
+                <li><a href="#compare_git_svn">Compare<br>with git-svn</a></li>
+                <li><a href="#fits_environment">Fits your<br>unveronment</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- //main wrapper container -->
+        <div id="left_right_wrap">
+          <div class="wrapper">
+            <a name="subgit_mirror"></a>
+            <div class="spacer_45"></div>
+            <div class="left subgit_mirror">
+              <div></div>
+            </div>
+            <div class="right">
+              <h2>SUBGIT mirror</h2>
+              <h5>Start using Git with zero downtime.</h5>
+              <p>Use SubGit to create a bi-directional Git-SVN mirror of existing Subversion repository.
+              Push to Git or commit to Subversion at your convenience. SubGit will take care
+              of synchronization. <a href="#">Learn more</a></p>
+              <a href="download.html" class="button_orange">Download</a>
+            </div>
+            <div class="clear"></div>
+            <a name="subgit_import"></a>
+            <div class="spacer_45"></div>
+            <div class="left">
+              <h2>SUBGIT import</h2>
+              <h5>SubGit is the best way to convert your<br>existing Subversion project to Git.</h5>
+              <p style="width:390px;">SubGit works fast, processes huge repositories, preserves all the data and history. SubGit command line interface is well suited for automation and unmanned processing. <a href="#">Learn more</a></p>
+              <a href="download.html" class="button_orange">Download</a>
+            </div>
+            <div class="right subgit_import">
+              <div></div>
+            </div>
+            <div class="clear"></div>
+            <a name="atlassian_stash"></a>
+            <div class="spacer_45"></div>
+            <div class="left atlassian_stash">
+              <div></div>
+            </div>
+            <div class="right">
+              <h2>ATLASSIAN STASH<br>ADD-ON</h2>
+              <h5>Take your existing Subversion-based
+                projects into Stash.</h5>
+              <p>SVN Mirror Add-On for Atlassian Stash will pull your existing Subversion project right into Atlassian Stash, as a one-time import
+              or full-featured bidirectional mirror.<br><a href="#">Learn more</a></p>
+              <a href="#" class="button_orange">Install Add-on</a>
+            </div>
+            <div class="clear"></div>
+            <a name="pro_support"></a>
+            <div class="spacer_45"></div>
+            <div class="left">
+              <h2>AWESOME PROFESSIONAL SUPPORT</h2>
+              <h5>SubGit is more than just a tool.</h5>
+              <p>We offer high quality support for all SubGit users. You will not be left alone in the dark, while migrating precious data from one world to another. Our support team will stay on your side and will help you to succeed.</p>
+              <a href="contacts.html" class="button_orange">Get in touch</a>
+            </div>
+            <div class="right pro_support">
+              <div></div>
+            </div>
+            <div class="clear"></div>
+            <a name="compare_git_svn"></a>
+            <div class="spacer_45"></div>
+            <div class="left compare_git_svn">
+              <div></div>
+            </div>
+            <div class="right">
+              <h2>COMPARE<br>WITH GIT-SVN</h2>
+              <h5>SubGit offers company-wide, safe Svn to Git migration approach.</h5>
+              <p>Professional support, zero downtime migration, centralized set-up, extraordinary performance, great documentation — these are just a few of SubGit benefits over other tools and approaches.</p>
+              <a href="#" class="button_orange">Learn more</a>
+            </div>
+            <div class="clear"></div>
+            <a name="fits_environment"></a>
+            <div class="spacer_45"></div>
+            <div class="left">
+              <h2>FITS YOUR ENVIRONMENT</h2>
+              <h5>SubGit works in a wide range of environments.</h5>
+              <p>There are plenty of Subversion and Git servers and management systems out there. We've prepared detailed tutorials on how to use SubGit with most popular of them and we'll be glad to expand our list upon your request.</p>
+              <a href="#" class="button_orange">Learn more</a>
+            </div>
+            <div class="right fits_environment">
+              <div></div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div id="testemonials">
+        <div class="wrapper">
+          <ul>
+            <li>
+              <div></div>
+              <p>
+              — Works well and very useful for migrations and situations where you need to have both repos working simultaneously.<br><br>
+              — Nice plugin... saved a lot of work for us!
+              </p>
+              <p class="testemonials_name">On Stash Add-On	</p>
+              <a href="#">atlassian.com</a>
+            </li>
+            <li>
+              <div></div>
+              <p>
+              I tried several manual approaches first but just a few weeks ago I discovered SubGit. OMG! This tool is amazing!... SubGit worked flawlessly for me and the result was just as good, if not better, then the manual approach that I had tried previously. The creators of SubGit have done a seriouslygood job!
+              </p>
+              <p class="testemonials_name">James Gordon</p>
+            </li>
+            <li>
+              <div></div>
+              <p>
+              If you're interested in migrations from SVN to Git or would like an SVN<->Git bi-directional mirroring solution then I wholeheartedly recommend you take a look at +SubGit
+              </p>
+              <p class="testemonials_name">Alex Lewis</p>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div id="subgit_customers">
+        <div class="wrapper">
+          <h3>Subgit Customers</h3>
+          <ul>
+            <li class="cust_boeing"></li>
+            <li class="cust_cbs"></li>
+            <li class="cust_cisco"></li>
+            <li class="cust_postbank"></li>
+            <li class="cust_comcast"></li>
+            <li class="cust_mit"></li>
+            <li class="cust_equifax"></li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div id="start_use">
+        <div class="wrapper">
+          <h2>Start Using SubGit Now!</h2>
+          <p>Get SubGit 2.0.0 for free and evaluate it without any limitations as long as you like. We do our best to support all SubGit users and offer dedicated commercial support if required.</p>
+          <a href="download.html">Download Subgit v2.0.1</a>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="wrapper">
+          <div id="footer_logo"></div>
+          <div id="footer_middle">
+            <div id="footer_tel">+27(0)12 991 0053</div>
+            <div id="footer_email"><a href="mailto:hello@subgit.com">hello@subgit.com</a></div>
+            <div class="clear"></div>
+            <a href="about_us.html">About us</a>
+            <div id="footer_copyright">
+              <p>Copyright © 2012-2013 TMate Software</p>
+              <p>Subversion and Git are names of Open Source version control system, which are developed independently. TMate Software and the website subgit.com are independent of Subversion and Git developers, and have no relationship, formal or informal.</p>
+            </div>
+          </div>
+          <div id="footer_social">
+            <a href="http://stackoverflow.com/questions/tagged/subgit?sort=votes&pageSize=50" id="footer_stack">&nbsp;</a>
+            <a href="http://plus.google.com/+Subgit" id="footer_gplus">&nbsp;</a>
+            <a href="http://twitter.com/subgit" id="footer_twitter">&nbsp;</a>
+            <a id="up" href="#up"></a>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </body>
+</html>
