@@ -1,6 +1,27 @@
-@font-face{font-family: 'allerbold';src: url('../f/aller_bd-webfont.eot');src: url('../f/aller_bd-webfont.eot?#iefix') format('embedded-opentype'), url('../f/aller_bd-webfont.svg') format('svg'), url('../f/aller_bd-webfont.woff') format('woff'), url('../f/Aller_Bd.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+@font-face{
+  font-family: 'allerbold';
+  src: url('../f/aller_bd-webfont.eot');
+  src: url('../f/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../f/aller_bd-webfont.svg') format('svg'),
+       url('../f/aller_bd-webfont.woff') format('woff'),
+       url('../f/Aller_Bd.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'allerregular';
+  src: url('../f/aller_rg-webfont.eot');
+  src: url('../f/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../f/aller_rg-webfont.woff') format('woff'),
+       url('../f/Aller_Rg.ttf') format('truetype'),
+       url('../f/aller_rg-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{margin:0; padding:0;}
-@font-face{font-family: 'allerregular'; src: url('../f/aller_rg-webfont.eot'); src: url('../f/aller_rg-webfont.eot?#iefix') format('embedded-opentype'), url('../f/aller_rg-webfont.svg') format('svg'), url('../f/aller_rg-webfont.woff') format('woff'), url('../f/Aller_Rg.ttf') format('truetype'); font-weight: normal; font-style: normal;}
+
 .clear{clear:both;}
 h1, h2, h3, h4, h5, h4{font-weight:normal;}
 h3 {font-family:'allerregular', sans-serif; text-transform:uppercase;}
