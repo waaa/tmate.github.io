@@ -1,5 +1,8 @@
 // Using jQuery safe
 (function($) {
+  if ($('#prices').length <= 0) {
+    return;
+  }
 
   function formInputs(formId) {
     return $('#' + formId).find('input,textarea');
@@ -63,7 +66,8 @@
 
     var slideWrap = $("#popup_lists");
 
-    $("#prices").on("click", "li", function() {
+    $("#prices").on("click", "li", function(event) {
+      event.preventDefault();
 
       var href1 = $(this).find(".price_text").next('a').attr('href');
       for ( var i = 0; i <= 10; i++ ) {

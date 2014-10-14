@@ -33,3 +33,8 @@
 	</div>
 </div>
 <div id="content">
+  {% if page.subtitle != null %}
+  <div class="coffee_wrap green_wrap">
+    <h1>{{ page.subtitle }}</h1>
+  </div>
+  {% endif %}

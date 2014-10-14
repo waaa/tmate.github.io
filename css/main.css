@@ -1,8 +1,8 @@
 @font-face{
   font-family: 'allerbold';
   src: url('../f/aller_bd-webfont.eot');
-  src: url('../f/aller_bd-webfont.eot?#iefix') format('embedded-opentype'), 
-       url('../f/aller_bd-webfont.woff') format('woff'), 
+  src: url('../f/aller_bd-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../f/aller_bd-webfont.woff') format('woff'),
        url('../f/Aller_Bd.ttf') format('truetype'),
        url('../f/aller_bd-webfont.svg') format('svg');
   font-weight: normal;
@@ -12,8 +12,8 @@
 @font-face{
   font-family: 'allerregular';
   src: url('../f/aller_rg-webfont.eot');
-  src: url('../f/aller_rg-webfont.eot?#iefix') format('embedded-opentype'), 
-       url('../f/aller_rg-webfont.woff') format('woff'), 
+  src: url('../f/aller_rg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../f/aller_rg-webfont.woff') format('woff'),
        url('../f/Aller_Rg.ttf') format('truetype'),
        url('../f/aller_rg-webfont.svg') format('svg');
   font-weight: normal;
@@ -192,11 +192,13 @@ li.current #tabs_header2{border:2px solid #807969;border-radius:0 8px 0 0; borde
 #stack_overflow{background:url(../img/stack_overflow.png) no-repeat;}
 #stack_overflow:hover{background:url(../img/stack_overflow_on.png) no-repeat;}
 
-#prices_wraper{height:660px; overflow:hidden; position:relative;}
-#prices ul li{float:left; cursor: pointer; width:130px; margin: 40px 0 34px; padding: 20px 11px; border:2px solid #fff; border-radius:7px; list-style-type:none; text-align:center; position:relative;}
+#prices_wraper{height:680px; overflow:hidden; position:relative;}
+#prices ul li{float:left; cursor: pointer; width:130px; margin: 40px 0 18px; padding: 20px 11px; border:2px solid #fff; border-radius:7px; list-style-type:none; text-align:center; position:relative;}
 #prices ul li:hover { background: #F8F8F8; border:2px solid #66869a; border-radius:7px;}
 #prices h5{text-transform:uppercase; font-family:'allerregular', sans-serif; color:#000; font-size:20px;margin-bottom:5px;}
 #prices h6{color:#d0c8b4; font-size:18px; font-weight:normal; height:75px; text-align:center;font-family: 'allerregular', sans-serif;}
+#prices p{font-size:20px; line-height: 28px; font-weight:normal; height:75px; text-align:left;font-family: 'allerregular', sans-serif;}
+#prices .note {color: #d0c8b4; font-size: 18px;}
 #prices .price{width:104px; height:104px;  margin:0 auto 26px; box-sizing:border-box;}
 #prices .price div{display:table-cell; vertical-align:middle; text-transform:uppercase;border:2px solid #ff7244; border-radius:10000px; color:#ff7244; text-align:center;font-size:30px; font-family:'allerbold', sans-serif;width:100px; height:100px;}
 #prices ul li:hover .price div {background: #FF7244; color: #FFFFFF; }
