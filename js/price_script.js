@@ -6,10 +6,7 @@
   }
 
   function submit(formId, buttonId) {
-    var form = document.getElementById(formId);
-    var inputs = form.getElementsByTagName("input");
-    var params = "formId=" + formId.toUpperCase();
-
+    var params = 'formId=' + formId.toUpperCase();
     var savedText = $(buttonId).text();
 
     formInputs(formId).each(function() {
@@ -21,24 +18,29 @@
     request.open("POST", "http://svnkit.com/subgit/send2.php", true);
     var updater = function() {
       if (request.readyState == 4) {
+
         if (request.responseText != null && request.responseText.indexOf('ok|') == 0) {
           $(buttonId).text('Application Received');
         } else {
           $(buttonId).text('Error Occurred');
         }
+
         var handler = function(event) {
           $(buttonId).text(savedText);
           $(buttonId).removeClass('disabled');
           formInputs(formId).unbind('focus', handler);
         };
+
         formInputs(formId).on('focus', handler);
       }
     };
 
     request.onreadystatechange = updater;
     request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+
     $(buttonId).toggleClass('disabled');
     $(buttonId).text('Processing...');
+
     request.send(params);
 
     return false;
@@ -71,7 +73,7 @@
         }
       }
       $("#popup_cover").show(100);
-      slideWrap.find('.popup:first').find('input, textarea').first().focus();
+      slideWrap.find('.popup:first').find('input, textarea, a.button_orange').first().focus();
     });
 
     $("#popup_cover").find(".close").click(function() {
@@ -91,7 +93,7 @@
             .appendTo(slideWrap)
             .parent()
             .css({'left': 0});
-            slideWrap.find('.popup:first').find('input, textarea').first().focus();
+            slideWrap.find('.popup:first').find('input, textarea, a.button_orange').first().focus();
           });
         }
       };
@@ -104,7 +106,7 @@
           .prependTo(slideWrap)
           .parent()
           .animate({left: 0}, 500, function() {
-            slideWrap.find('.popup:first').find('input, textarea').first().focus();
+            slideWrap.find('.popup:first').find('input, textarea, a.button_orange').first().focus();
           });
         }
       };
@@ -116,11 +118,17 @@
       prevLink.click(prevPage);
 
       $(document).keyup(function(e) {
-        if (e.keyCode == 37) {
+        var focusedElement = document.activeElement;
+        var inputFocused = focusedElement != null
+          && ('input' == focusedElement.tagName.toLowerCase() || 'textarea' == focusedElement.tagName.toLowerCase());
+        if (e.keyCode == 37 && !inputFocused) {
+          e.preventDefault();
           prevPage();
-        } else if (e.keyCode == 39) {
+        } else if (e.keyCode == 39 && !inputFocused) {
+          e.preventDefault();
           nextPage();
         } else if (e.keyCode == 27) {
+          e.preventDefault();
           $("#popup_cover").fadeOut(300);
         }
       });
