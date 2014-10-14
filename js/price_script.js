@@ -1,6 +1,10 @@
 // Using jQuery safe
 (function($) {
 
+  function formInputs(formId) {
+    return $('#' + formId).find('input,textarea');
+  }
+
   function submit(formId, buttonId) {
     var form = document.getElementById(formId);
     var inputs = form.getElementsByTagName("input");
@@ -8,19 +12,13 @@
 
     var savedText = $(buttonId).text();
 
-    for (var i = 0; i <inputs.length; i++){
-      if (inputs[i].type == "text") {
-        inputs[i].style.borderColor="";
-        params += "&" + inputs[i].name + "=" + encodeURIComponent(inputs[i].value);
-      } else if (inputs[i].type == "checkbox") {
-        inputs[i].style.borderColor="";
-        params += "&" + inputs[i].name + "=" + encodeURIComponent(inputs[i].checked);
-      }
-    }
+    formInputs(formId).each(function() {
+      params += '&' + $(this).attr('name') + '=' + encodeURIComponent($(this).val());
+    });
 
     var request = new XMLHttpRequest();
 
-    request.open("POST", "http://svnkit.com/subgit/send.php", true);
+    request.open("POST", "http://svnkit.com/subgit/send2.php", true);
     var updater = function() {
       if (request.readyState == 4) {
         if (request.responseText != null && request.responseText.indexOf('ok|') == 0) {
@@ -29,12 +27,11 @@
           $(buttonId).text('Error Occurred');
         }
         var handler = function(event) {
-          console.log('enabling back');
           $(buttonId).text(savedText);
           $(buttonId).removeClass('disabled');
-          $('#' + formId + ' input').unbind('focus', handler);
+          formInputs(formId).unbind('focus', handler);
         };
-        $('#' + formId + ' input').on('focus', handler);
+        formInputs(formId).on('focus', handler);
       }
     };
 
@@ -60,6 +57,7 @@
 
     $('#get_free_key_button').click(getAKey('#get_free_key_button', 'FREE_AUTO_GENERATED'));
     $('#get_open_source_key_button').click(getAKey('#get_open_source_key_button', 'OPEN_SOURCE'));
+    $('#get_quote_button').click(getAKey('#get_quote_button', 'QUOTE'));
 
     var slideWrap = $("#popup_lists");
 
@@ -73,7 +71,7 @@
         }
       }
       $("#popup_cover").show(100);
-      //slideWrap.find('.popup:first').find('input, textarea').first().focus();
+      slideWrap.find('.popup:first').find('input, textarea').first().focus();
     });
 
     $("#popup_cover").find(".close").click(function() {
