@@ -1,0 +1,341 @@
+/**************** MAIN LAYOUT ****************/
+* {
+    margin: 0;
+    padding: 0;
+}
+error {
+    border: solid 2px #FF0000;
+}
+html, body {
+    background-color: #FFF;
+}
+
+.centerPage {
+    width: 820px;
+    margin: 0 auto;
+}
+
+#header {
+    position: relative;
+    margin: 0 auto 20px;
+    overflow:hidden;
+    padding-top:20px;
+    background:#fafafa;
+    
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(58%, #fafafa), color-stop(79%, #eeeeee));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #fafafa 58%, #eeeeee 79%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #fafafa 58%, #eeeeee 79%);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #fafafa 58%, #eeeeee 79%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #fafafa 58%, #eeeeee 79%);
+    background-image: linear-gradient(top, #ffffff 0%, #fafafa 58%, #eeeeee 79%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#eeeeee');
+    
+    box-shadow:0 0 3px rgba(0,0,0,.7);
+}
+#rocketHolder {
+    float: left;
+    padding-right:30px;
+}
+
+#rocket {
+    vertical-align:top;
+}
+
+#titleHolder {
+    overflow:hidden;
+}
+
+#title {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 50px;
+    color: #5D6060;
+    padding-bottom:1px;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+#slogan {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #00ADE9;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+#about {
+	float: top;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #00ADE9;
+}
+#about a, a:visited {
+    text-decoration: none;
+    color: #00ADE9;    
+}
+
+#news {
+    width: 240px;
+    float: right;
+    margin-right: -260px;
+}
+
+.newsBlock {
+    padding: 10px 10px 0px 10px;
+    box-shadow: 0 0 2px #333;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.newsText {
+    font: 16px "Courier New", "Lucida Console", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#content {
+    position: relative;
+    padding-bottom: 220px; /* bottom padding for footer */
+}
+
+#media {
+    width: 640px;
+    position: relative;
+    margin: 10px auto;
+    padding:10px;
+    background:#fafafa;
+    box-shadow:0 0 3px #333;
+}
+
+#csSWF{
+    vertical-align:top;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0; /* stick to bottom */
+    padding:25px 0;
+    height: 150px;
+    width:100%;
+    background:#fafafa;
+    box-shadow:0 0 4px #ccc;
+}
+
+#cosmonautsHolder {
+    float: left;
+    width: 170px;
+    height: 160px;
+}
+
+#cosmonauts {
+    width: 140px;
+    height: 140px;
+}
+
+/*********** DEFAULT FONTS AND COLORS ************/
+
+body {
+    color: #535353;
+    position: relative;
+    font: 18px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#menuWrapper {
+    margin-top: 30px;
+    padding: 3px 0;
+    box-shadow:0 0 2px rgba(0,0,0,.3);
+    
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #fafafa));
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+    background-image: -moz-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+    background-image: -ms-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #fafafa 100%);
+    background-image: linear-gradient(top, #ffffff 0%, #fafafa 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ffffff', EndColorStr='#fafafa');
+}
+#menu{
+    padding-left: 135px;
+    width: 675px;
+    margin: 0 auto;
+}
+.menuItem {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #00ADE9;
+    padding-right: 28px;
+    font-size: 22px;
+}
+
+.menuVersion {
+    margin-left: 5px; 
+    padding: 0px 2px;
+    background-color: #00ADE9; 
+    color: white; 
+    font-size:10pt;
+}
+
+.menuVersion:hover {
+    background-color: #F66700; 
+}
+a:hover .menuVersion {
+    background-color: #F66700; 
+}
+
+.menuItem > a:visited {
+    color: #00ADE9;
+    text-decoration: none;
+}
+.menuItem#active > a,a:visited {
+    color: #F66700;
+    text-decoration: none;
+}
+.menuItem > a {
+    color: #00ADE9;
+    text-decoration: none;
+}
+.menuItem > a:hover {
+    color: #F66700;
+}
+.submenu {
+    padding-top: 10px;
+}
+.submenu > .menuItem {
+    padding-right: 0px;
+    font-size: 18px;
+}
+
+h1, h2, h3, #nav {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #535353;
+}
+
+h3 {
+    font-weight: 1800;
+}
+
+.blue {
+    color: #00ADE9;
+}
+
+.grey {
+    color: #5D6060;
+}
+/********** PAGE CONTENT ***********/
+
+#content a, a:visited {
+    color: #00ADE9;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #F66700;
+    text-decoration: underline;
+}
+
+#content {
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+    padding-bottom: 24px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 22px;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+
+p {
+    padding-bottom: 16px;
+}
+
+.note {
+    font: 20pt/20pt "Trebuchet MS", Helvetica, sans-serif;
+    color: #F66700;
+    font-weight: normal;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    background: url(img/note_bg.gif) repeat-y;
+}
+
+pre {
+    font: 16px "Courier New", "Lucida Console", Tahoma, Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    margin-bottom: 16px;
+    padding:18px;
+    box-shadow:0 0 2px #333;
+}
+
+ul {
+    margin-left: 30px;
+    padding-bottom: 16px;
+    line-height: 30px;
+}
+
+/********** FOOTER ***********/
+
+#copyright {
+    font: 13px/13px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+    padding-bottom: 65px;
+}
+
+#footnote {
+    font: 10px/10px Verdana, Tahoma, Arial, Helvetica, sans-serif;
+}
+
+/********** FORMS **************/
+
+.hint {
+  display:none;
+  position: absolute;
+  right: 20px;
+  width: 220px;
+  margin-top: 0px;
+  border: 1px solid #c93;
+  padding: 5px 12px;
+  background-color: #ffc;
+}
+
+.status {
+  position: absolute;
+  font-size: 80%;
+  right: -50px;
+  width: 400px;
+  margin-top: 0px;
+  padding: 10px 12px;
+}
+
+.hint .hint-pointer {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 10px;
+    height: 19px;
+    background: url(img/pointer.gif) left top no-repeat;
+}
+
+dl {
+  position: relative;
+  width: 800px;
+}
+dt {
+  clear: both;
+  float:left;
+  width: 200px;
+  //padding: 4px 0 2px 0;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  text-align: left;
+}
+dd {
+  float: left;
+  width: 310px;
+  //margin: 0 0 8px 0;
+  padding-left: 6px;
+  margin-bottom: 5px;
+}
