@@ -1,6 +1,6 @@
 // Using jQuery safe
 (function($) {
-  if ($('#prices').length <= 0) {
+  if (location.href.indexOf('pricing.html') < 0) {
     return;
   }
 
