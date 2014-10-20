@@ -1,0 +1,37 @@
+---
+layout: documentation
+subtitle: How to Register SubGit
+---
+<div class="wrapper">
+{% capture content %}
+
+###1. Obtain Registration Key
+Choose one of the option at the Registration page to obtain Free, Commercial or Open Source registration key. You will receive key file by email. It will look like:
+
+```
+Purchase ID: Company Name 
+Name: Company Name
+Committers per repository: 10
+Repositories: 10
+Supported versions: 1.*.*
+
+pjCssAR6cT4F3MnEDb0qKiEcb15UWlPBQwvrZCMlBmbihHrXVnZ2MyJKsUT
+...
+sSPIOdt1sz1@6d6PXEzybYJq1DOaZfXWzogM3jpB4M1hBA1LRJBbOE1qVWH
+```
+
+###2. Upload Registration Key to the Host where SubGit is installed.
+Upload key you have received to the server where your repository is located. You may upload the file, or copy and paste key file contents to the file on the server side.
+
+###3. Register SubGit
+Register SubGit for your Git or Subversion repository by running the following command:
+
+```
+$ sudo subgit register --key subgit.key /path/to/repository
+```
+
+Note use of the `sudo` command above. Super user privileges are needed to store key securely. On Windows OS you may need to ensure that register command is run on behalf of the Administrator user.
+{% endcapture %}
+
+{{ content | markdownify }}
+</div>
