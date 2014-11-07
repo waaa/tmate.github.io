@@ -214,7 +214,7 @@ li.current #tabs_header2{border:2px solid #807969;border-radius:0 8px 0 0; borde
 .popup{border:2px solid #80a0b4; border-radius:7px; height:480px; margin-top:34px;padding:50px 60px; position:relative; background:#fff; float:left; width:821px;}
 .popup .close{background:url(../img/close.png) no-repeat; width:39px; height:39px; position:absolute; top:20px; right:20px; cursor:pointer;}
 .popup h2{text-align:center;}
-.popup p{text-align:center; margin-bottom:15px;}
+.popup p{text-align:left; margin-bottom:15px;}
 .popup a.button_orange{margin:50px auto 0 !important; padding:25px 0; border:2px solid #ff7244; color:#ff7244; border-radius:8px; display:block; text-decoration:none;font-family: 'allerregular', sans-serif; width:280px; text-align:center; font-size:20px;font-weight: normal;}
 #up_to_25 a.button_orange{float:left; width:394px; margin-bottom:45px !important;}
 #up_to_25 a.button_orange.first{margin-right:25px !important;}
