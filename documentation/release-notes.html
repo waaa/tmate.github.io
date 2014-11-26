@@ -1,0 +1,64 @@
+---
+layout: documentation
+subtitle: Release Notes
+---
+<div class="wrapper">
+{% capture content %}
+###SubGit 2.0.3 Release Notes
+SubGit 2.0.3 is bug fix release that fixes the following issues:
+
+*   Tranlsation peformance improved for multi-project repositories.
+*   Failure to update single Git reference no longer results in translation to stop.
+
+In addition there is the following feature has been added:
+
+*   Subversion pre-revprop-change hook is no longer required for authors mapping to work.
+
+###SubGit 2.0.2 Release Notes
+SubGit 2.0.2 is bug fix release that fixes the following issues:
+
+*   Potential translation failure on .gitignore rename
+*   Issues related to the 'skip' option that allows to exclude paths from translation
+*   SSL client certificate was ignored when specified on the command line of the 'import' command
+*   New version of SVNKit library is used that introduces improvements in SSL authentication and GNOME keyring support
+
+In addition there is the following feature has been added:
+
+*   pathEncoding option now supports 'none' value to disable path translation
+
+###SubGit 2.0.1 Release Notes
+SubGit 2.0.1 introduces the following features:
+
+*   Adding a new branch mapping to configuration file no longer requires a full rebuild of a Git repository.
+*   SubGit will now use SSH-agent to authenticate on remote Subversion server when SSH-agent is available.
+*   Repositories created with Subversion 1.8 now supported in the local mirror mode.
+
+###SubGit 2.0.0 Release Notes
+SubGit 2.0.0 introduces the following major features:
+
+*   Support for remote Subversion repositories:
+
+    *   SubGit 2.0.0 introduces new remote mirror mode. In this mode all synchronization related tasks are performed on the Git repository side, Subversion side remains untouched. Consequently, Subversion users are not aware of the mirror(s) presence, however their changes are reflected in the Git repository. Changes pushed by the Git users are instantly promoted to the Subversion repository. SubGit 'Remote' Book provides full details on the new mode operation and configuration.
+
+*   One-shot import from Subversion to Git
+
+    *   To import existing project from Subversion to Git without configuring a mirror, one may now use new shortcut import command. This command has being designed to eliminate human interaction and allows all the options to be specified once on the command line. You may find more information on import command in SubGit 'Remote' Book.
+
+*   Performance improvements
+
+    *   SubGit instruments repository with the hook scripts that are invoked on each push or commit (in case SubGit is installed in Subversion repository). In version 2.0, we have reimplemented these hooks as native binaries so that JVM startup overhead is no longer an issue. On platforms where native binaries are not available (OS X or some specific Linux versions) good old JVM-based hooks are used.
+
+*   Flexible branches and tags layout
+    *   Version 2.0 allows to specify multiple branches locations for a single project. For instance, the following mapping will work now:
+
+            [svn]
+            ...
+            trunk = trunk:refs/heads/master
+            branches = branches/*:refs/heads/*;releases/*:refs/releases/*
+            tags = tags/*:refs/tags/*
+            shelves = shelves/*:refs/shelves/*
+        Find more in the [branches mapping](../book.html#5) section of the SubGit Local Book.
+{% endcapture %}
+
+{{ content | markdownify }}
+</div>

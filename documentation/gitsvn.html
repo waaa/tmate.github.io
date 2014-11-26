@@ -1,0 +1,69 @@
+---
+layout: documentation
+subtitle: Comparison to Git-Svn
+---
+<div class="wrapper">
+{% capture content %}
+From the very beginning, SubGit was developed as an alternative to Git-Svn, so quite naturally SubGit does resolve many of the Git-Svn limitations. In particular, the following benefits of SubGit might be outlined:
+
+###Migration to Git, not to Git-Svn
+
+**Git-Svn**
+
+*   Learn how to use Git.
+*   Learn how to use Git-Svn (read this page).
+*   Start using Git-Svn, encounter one of the caveats, read documentation again.
+*   Fit your mind to the limited git-svn workflow, avoid non-linear history and merges.
+
+**SubGit**
+
+*   Learn how to use Git.
+*   Use Git.
+
+###Install once
+
+**Git-Svn**
+
+*   Each developer in your team:
+*   Clones repository with Git-Svn (takes a lot of time depending on repository size).
+*   Adjusts Git-Svn configuration, making sure it doesn't conflict with other users' configurations.
+*   Suffers of the numerous Git-Svn pitfalls and caveats.
+
+**SubGit**
+
+*   System administrator installs SubGit into your Git or Subversion repository, adjusts configuration, reuses already configured service (e.g. Apache or SSH) for network access.
+*   Developers use Git.
+*   Nothing is lost in translation
+
+###Nothing is lost in translation
+
+**Git-Svn**
+
+*   User runs Git-Svn 'dcommit' to 'push' changes to Subversion repository.
+*   Git commits are translated to Subversion revisions.
+*   Another user runs Git-Svn 'rebase' to get these changes.
+*   Subversion revisions get translated to Git commits.
+
+Run English to Russian and back to English translation on Google Translate service and you will get a rough idea of what may be lost with Git-Svn.
+
+**SubGit**
+
+*   User pushes Git commits to the Git repository.
+*   Git commits are translated to Subversion revisions asynchronously.
+*   Another Git user pulls these very commits from the Git repository.
+*   Subversion user receives translated revisions on update.
+*   SubGit makes sure that translation is only performed when necessary and as asynchronously (in the background) as possible.
+
+###Freedom of tools
+
+**Git-Svn**
+
+*   Only Git-Svn. Only command line. Only linear history.
+
+**SubGit**
+
+*   Use Git and any tool you like, be it IDE-integration or standalone Git UI client.
+{% endcapture %}
+
+{{ content | markdownify }}
+</div>
