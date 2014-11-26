@@ -3,5 +3,24 @@ layout: page
 title: 404
 ---
 <script type="text/javascript">
-window.location.hostname = 'old.subgit.com';
+
+function endsWith(str, suffix) {
+  return str.indexOf(suffix, str.length - suffix.length) !== -1;
+}
+var path = window.location.pathname;
+
+if (endsWith(path, '/')) {
+  path = path.substring(0, path.lenght - 1);
+}
+
+if (endsWith(path, '/download') ||
+    endsWith(path, '/documentation') ||
+    endsWith(path, '/support') ||
+    endsWith(path, '/contacts') ||
+    endsWith(path, '/pricing')) {
+  window.location.pathname = path + '.html';
+} else {
+  window.location.hostname = 'old.subgit.com';
+}
+
 </script>
