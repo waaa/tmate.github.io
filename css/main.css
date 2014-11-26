@@ -189,7 +189,7 @@ li.current #tabs_header2{border:2px solid #807969;border-radius:0 8px 0 0; borde
 #twitter:hover{background:url(../img/twitter_on.png) no-repeat;}
 #google_plus{background:url(../img/google_plus.png) no-repeat;margin-right:75px; padding-top:125px; text-align:center; color:#ff6b4f !important;}
 #google_plus:hover{background:url(../img/google_plus_on.png) no-repeat;}
-#stack_overflow{background:url(../img/stack_overflow.png) no-repeat;}
+#stack_overflow{background:url(../img/stack_overflow.png) no-repeat;margin-right:75px;padding-top:125px; }
 #stack_overflow:hover{background:url(../img/stack_overflow_on.png) no-repeat;}
 
 #prices_wraper{height:680px; overflow:hidden; position:relative;}
