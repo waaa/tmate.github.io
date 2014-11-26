@@ -4,7 +4,11 @@
 	<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/img/favicon.ico">
 	<meta name="keywords" content="Git,Svn,SubGit,git-svn,Repository,VCS,DVCS,TMate" />
 	<meta charset="UTF-8">
-	<title>SubGit&nbsp;::&nbsp;Documentation</title>
+  {% if page.subtitle != null %}
+  <title>SubGit&nbsp;::&nbsp;{{ page.subtitle }}</title>
+  {% else %}
+  <title>SubGit&nbsp;::&nbsp;Documentation</title>
+  {% endif %}
 	<meta name="description" content="Git-svn alternative for a safe migration from Svn to Git. Install once on the server side and use both Git and Svn as long as you like." />
 	<link href='{{ site.baseurl }}/css/documentation.css' rel='stylesheet' type='text/css'>
 	<link href="https://plus.google.com/114128677298030695536" rel="publisher" />
