@@ -12,7 +12,7 @@ var path = window.location.pathname;
 if (endsWith(path, '/')) {
   path = path.substring(0, path.lenght - 1);
 }
-
+console.log('path: ' + path);
 if (endsWith(path, '/download') ||
     endsWith(path, '/documentation') ||
     endsWith(path, '/support') ||
