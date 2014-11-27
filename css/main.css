@@ -234,3 +234,14 @@ li.current #tabs_header2{border:2px solid #807969;border-radius:0 8px 0 0; borde
 #addit_info .part2{background:url(../img/addit_part2.png) no-repeat 50%; width:98px; height:98px; margin: 0 23px 0 0; float: left;}
 #addit_info .part3{background:url(../img/addit_part3.png) no-repeat 50%; width:98px; height:98px; margin: 0 23px 0 0; float: left;}
 #addit {font-size:20px; color:#66869a; text-align:center; margin-bottom:25px; min-height:52px;}
+
+.downloadFrame {
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; 
+  margin: -1px; 
+  overflow: hidden; 
+  padding: 0; 
+  position: absolute; 
+  width: 1px; 
+}

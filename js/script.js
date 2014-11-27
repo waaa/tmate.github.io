@@ -1,4 +1,11 @@
 // Using jQuery safe
+var downloadFile = function(url) {
+   var downloadFrame = document.createElement('iframe'); 
+   downloadFrame.setAttribute('src', url);
+   downloadFrame.setAttribute('class', 'downloadFrame'); 
+   document.body.appendChild(downloadFrame);
+};
+
 (function($) {
 
     $(document).ready(function() {
@@ -16,5 +23,6 @@
         });
 
     }); //doc ready end
+
 
 })(jQuery);
