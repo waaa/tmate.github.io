@@ -36,7 +36,7 @@ textarea{resize:none;}
 #top_menu li a{text-transform:uppercase; text-decoration:none;font-family: 'allerbold', sans-serif; color:#80a0b4;}
 #top_menu li a:hover{text-decoration:underline;}
 #top_menu .active{color:#f68970;}
-#top_menu .active:hover{text-decoration:none; cursor:default;}
+#top_menu .active:hover{text-decoration:none;}
 
 #main_page_big_pic{background:#5b788a; height:400px; position:relative; z-index:1; overflow:hidden; width:100%;}
 #main_page_big_pic_cir1{width:1250px; height:1250px; position:absolute; z-index:2; background:#617f92; border-radius:10000px; top:50%; margin:-625px 0 0 50px;}
