@@ -18,6 +18,8 @@ if (endsWith(path, '/download') ||
     endsWith(path, '/contacts') ||
     endsWith(path, '/pricing')) {
   window.location.pathname = path + '.html';
+} if (path == '/register' || path == '/register.html') {
+  window.location.pathname = '/pricing.html';
 } else {
   window.location.hostname = 'old.subgit.com';
 }
