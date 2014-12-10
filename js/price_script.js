@@ -1,6 +1,7 @@
 // Using jQuery safe
 (function($) {
-  if (location.href.indexOf('pricing.html') < 0) {
+
+  if (location.href.indexOf('pricing') < 0) {
     return;
   }
 
@@ -77,7 +78,7 @@
         }
       }
       $("#popup_cover").show(100);
-      slideWrap.find('.popup:first').find('input, textarea, a.button_orange').first().focus();
+      slideWrap.find('.popup:first').find('input, a.button_orange').first().focus();
     });
 
     $("#popup_cover").find(".close").click(function() {
