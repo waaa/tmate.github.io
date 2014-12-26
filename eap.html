@@ -53,22 +53,23 @@ $ git clone REPOS.GIT working-tree</code></pre>
     <p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
     <p>New in version 3.0.0-EAP_2986 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
     <ul>
-     <li>Single-directory Subversion projects support.</li>
-     <li>Shelves (anonymous Git branches) mirroring is now optional.</li>
-     <li>Improved wildcard mapping syntax support, the following mappings are valid now:
-
+     <li>— Single-directory Subversion projects support.</li>
+     <li>— Shelves (anonymous Git branches) mirroring is now optional.</li>
+     <li>— Improved wildcard mapping syntax support, the following mappings are valid now:
+          <pre>
           branches = branches/*/*:refs/heads/*/*
           branches = branches/*/project:refs/heads/*
           branches = branches/feature_*_branche:refs/heads/feature_*
+          </pre>
      </li>
-     <li>Patterns could be specified to exclude (or include) particular paths or branches from translation.</li>
-     <li>Credential helper support allows to configure custom script or program to provide Subversion credentials.</li>
-     <li>Authors mapping could be configured to use custom script or program to provide Subversion/Git authors mapping.</li>
-     <li>Upon Subversion to Git translation user-post-receive hook script might be configued to be called.</li>
-     <li>Dedicated shared daemon background process that manages multiple Git mirrors could be now configured
+     <li>— Patterns could be specified to exclude (or include) particular paths or branches from translation.</li>
+     <li>— Credential helper support allows to configure custom script or program to provide Subversion credentials.</li>
+     <li>— Authors mapping could be configured to use custom script or program to provide Subversion/Git authors mapping.</li>
+     <li>— Upon Subversion to Git translation user-post-receive hook script might be configued to be called.</li>
+     <li>— Dedicated shared daemon background process that manages multiple Git mirrors could be now configured
          in place of a single background process per Git mirror.</li>
-     <li>Automated restoration from the 'out of sync' mirror state.</li>
-     <li>Performance issues related to the large binary objects processing fixed.</li>
+     <li>— Automated restoration from the 'out of sync' mirror state.</li>
+     <li>— Performance issues related to the large binary objects processing fixed.</li>
     </ul>
     <p>System Requirements:</p>
     <ul>
