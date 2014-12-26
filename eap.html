@@ -1,0 +1,80 @@
+---
+layout: default
+active: download
+subtitle: SubGit 3.0 Early Access
+---
+<div class="wrapper">
+  <div id="tab_wrap">
+    <ul id="tabs">
+      <li class="current"><div id="tabs_header1">Universal Zip Archive (Linux, OS X, Windows)</div></li>
+      <li><div id="tabs_header2">Debian Package (Debian, Ubuntu)</div></li>
+    </ul>
+    <div class="box visible">
+      <div class="tab_box_inner">
+        <p>Build: <strong>&#35;2796</strong>, published on: <strong>Dec 26, 2014</strong></p>
+        <p>Binaries zip archive: <a href="downloadingeapzip.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.0.0-EAP_2986.zip</a></p>
+        <p class="checksum">file md5 checksum: 46ccfb698523d4bbbe174a84a67ba3c1</p>
+        <h6>Quick start:</h6>
+        <pre>
+<code># download zip-archive above
+#
+$ unzip subgit-3.0.0-EAP_2986.zip
+#
+# make sure you're acting on behalf of the same user you use
+# to serve Subversion repository
+#
+$ subgit-3.0.0-EAP_2986/bin/subgit configure --svn-url SVN_URL REPOS.GIT
+$ subgit-3.0.0-EAP_2986/bin/subgit install REPOS.GIT
+$ git clone REPOS.GIT working-tree</code></pre>
+      </div>
+    </div>
+    <div class="box">
+      <div class="tab_box_inner">
+        <p>Build: <strong>&#35;2796</strong>, published on: <strong>Dec 26, 2014</strong></p>
+        <p>Debian package: <a href="downloadingeapdeb.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.0.0-EAP-2986_all.deb</a></p>
+        <p class="checksum">file md5 checksum: 59a7e410c3505e01696ab5420f62f345</p>
+        <h6>Quick start:</h6>
+        <pre>
+<code># download Debian package above and fetch missing dependencies
+#
+$ sudo dpkg -i subgit_3.0.0_EAP_2986_all.deb
+$ sudo apt-get install -f
+#
+# make sure you're acting on behalf of the same user you use
+# to serve Subversion repository
+#
+$ subgit-3.0.0-EAP_2986/bin/subgit configure --svn-url SVN_URL REPOS.GIT
+$ subgit-3.0.0-EAP_2986/bin/subgit install REPOS.GIT
+$ git clone REPOS.GIT working-tree</code></pre>
+      </div>
+    </div>
+  </div>
+  <div id="new_wrap">
+    <p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
+    <p>New in version 3.0.0-EAP_2986 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
+    <ul>
+     <li>Single-directory Subversion projects support.</li>
+     <li>Shelves (anonymous Git branches) mirroring is now optional.</li>
+     <li>Improved wildcard mapping syntax support, the following mappings are valid now:
+
+          branches = branches/*/*:refs/heads/*/*
+          branches = branches/*/project:refs/heads/*
+          branches = branches/feature_*_branche:refs/heads/feature_*
+     </li>
+     <li>Patterns could be specified to exclude (or include) particular paths or branches from translation.</li>
+     <li>Credential helper support allows to configure custom script or program to provide Subversion credentials.</li>
+     <li>Authors mapping could be configured to use custom script or program to provide Subversion/Git authors mapping.</li>
+     <li>Upon Subversion to Git translation user-post-receive hook script might be configued to be called.</li>
+     <li>Dedicated shared daemon background process that manages multiple Git mirrors could be now configured
+         in place of a single background process per Git mirror.</li>
+     <li>Automated restoration from the 'out of sync' mirror state.</li>
+     <li>Performance issues related to the large binary objects processing fixed.</li>
+    </ul>
+    <p>System Requirements:</p>
+    <ul>
+      <li>— Java 1.6 or newer version.</li>
+      <li>— We test SubGit on Linux, Windows and OS X systems.</li>
+    </ul>
+    <p>Refer to <a href="documentation.html">documentation</a> page for more information on how to use SubGit.</p>
+  </div>
+</div>
