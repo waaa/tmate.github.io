@@ -56,11 +56,12 @@ $ git clone REPOS.GIT working-tree</code></pre>
      <li>— Single-directory Subversion projects support.</li>
      <li>— Shelves (anonymous Git branches) mirroring is now optional.</li>
      <li>— Improved wildcard mapping syntax support, the following mappings are valid now:
-          <pre>
-          branches = branches/*/*:refs/heads/*/*
-          branches = branches/*/project:refs/heads/*
-          branches = branches/feature_*_branche:refs/heads/feature_*
-          </pre>
+     <pre>
+
+     branches = branches/*/*:refs/heads/*/*
+     branches = branches/*/project:refs/heads/*
+     branches = branches/feature_*_branche:refs/heads/feature_*
+     </pre>
      </li>
      <li>— Patterns could be specified to exclude (or include) particular paths or branches from translation.</li>
      <li>— Credential helper support allows to configure custom script or program to provide Subversion credentials.</li>
