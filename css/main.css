@@ -63,6 +63,8 @@ a.button_orange:hover{background:#fff; border:2px solid #ff7244; color:#ff7244 !
 #main_page_href_wrap li:last-child{margin-left:3px;}
 #main_page_href_wrap a{color:#807969; font-size:18px;font-family: 'allerregular', sans-serif; text-decoration:none; text-transform:uppercase; line-height:27px; display:block; text-align:center; background:url(../img/href_sprite.png) no-repeat top left; padding-top:105px;}
 #main_page_href_wrap a:hover{color:#fff;}
+#main_page_href_wrap a#eap{border:0px; height: 0px;color:#fff; font-size:18px; padding-top: 0px; margin-top: 0px;}
+#main_page_href_wrap a#eap:hover{text-decoration: underline;}
 .menu_highlight {color:#fff; font-size:18px;font-family: 'allerregular', sans-serif; text-decoration:none; text-transform:uppercase; line-height:27px; display:block; text-align:center; background:url(../img/href_sprite.png) no-repeat top left; padding-top:105px;}
 
 #main_page_href_wrap li:nth-child(1) a{background-position: 50% 0;}
