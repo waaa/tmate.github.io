@@ -15,6 +15,9 @@ if (endsWith(path, '/index.html')) {
 if (endsWith(path, '/')) {
   path = path.substring(0, path.length - 1);
 }
+
+console.log('processing not found path: ' + path);
+
 if (endsWith(path, '/download') ||
     endsWith(path, '/documentation') ||
     endsWith(path, '/support') ||
