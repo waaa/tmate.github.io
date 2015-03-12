@@ -33,7 +33,7 @@
 	</script>
 </head>
 
-<body id="downloading" onload="downloadFile('http://old.subgit.com/interim/3.0.0-EAP12/subgit-3.0.0-EAP_3141.zip');">
+<body id="downloading" onload="downloadFile('http://old.subgit.com/interim/3.0.0-EAP17/subgit-3.0.0-EAP_3193.zip');">
 	<div id="container">
 		<div id="top">
 			<div class="wrapper">
@@ -51,14 +51,25 @@
 		</div>
 		<div id="content">
 			<div class="green_wrap">
-				<h1>Downloading SubGit 3.0.0 EAP #3141</h1>
+				<h1>Downloading SubGit 3.0.0 EAP #3193</h1>
 			</div>
 			<div class="wrapper">
-				<p style="color: #d0c8b4">Your download will start shortly. If not, please use the following direct <a href="http://old.subgit.com/interim/3.0.0-EAP12/subgit-3.0.0-EAP_3141.zip">link</a>.<br>
-				file md5 checksum: 39b179104cc46909f0259ab6f2567dd8</p>
+				<p style="color: #d0c8b4">Your download will start shortly. If not, please use the following direct <a href="http://old.subgit.com/interim/3.0.0-EAP17/subgit-3.0.0-EAP_3193.zip">link</a>.<br>
+				file md5 checksum: 3bc3ae8bb6ac2ea6b43f592c54ae6355</p>
 				<p>This Early Access build of SubGit includes built-in unlimited registration key that is valid for three months from the moment build has been published.</p>
 				<p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
   <div id="new_wrap">
+    <p>New in version 3.0.0 (EAP build #3193):</p>
+    <ul>
+     <li>— Simplified configure command syntax: 'configure [--layout MODE] SVN_URL'.
+     <li>— 'configure' command (initial mirror configuration command) improved  with the following options:</li>
+     <ul>
+       <li>— --layout auto --trunk trunkPath : detects project branches and generates configuration;</li>
+       <li>— --layout dir : generates single-directory mirror configuration;</li>
+       <li>— --layout std : generates default trunk/branches/tags configuration.</li>
+     </ul>
+     <li>— Human-readable commands output improved.</li>
+    </ul>
     <p>New in version 3.0.0 (EAP build #3141):</p>
     <ul>
      <li>— Automated out of sync state recovery.</li>
