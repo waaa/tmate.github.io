@@ -18,7 +18,10 @@ if (endsWith(path, '/')) {
 
 console.log('processing not found path: ' + path);
 
-if (endsWith(path, '/download') ||
+if (path == '/eap' || path == '/eap.html') {
+  window.location.pathname = '/download.html';
+} else if (
+    endsWith(path, '/download') ||
     endsWith(path, '/documentation') ||
     endsWith(path, '/support') ||
     endsWith(path, '/contacts') ||
