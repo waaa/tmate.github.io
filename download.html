@@ -1,7 +1,7 @@
 ---
 layout: default
 active: download
-subtitle: Download SubGit 2.0.3
+subtitle: Download SubGit 3.0.0
 ---
 <div class="wrapper">
   <div id="tab_wrap">
@@ -11,58 +11,68 @@ subtitle: Download SubGit 2.0.3
     </ul>
     <div class="box visible">
       <div class="tab_box_inner">
-        <p>Build: <strong>&#35;2796</strong>, published on: <strong>Sep 18, 2014</strong></p>
-        <p>Binaries zip archive: <a href="downloadingzip.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-2.0.3.zip</a></p>
+        <p>Build: <strong>&#35;2796</strong>, published on: <strong>Jul 31, 2015</strong></p>
+        <p>Binaries zip archive: <a href="downloadingzip.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.0.0.zip</a></p>
         <p class="checksum">file md5 checksum: 709201da6dd3485533a9dff694e48280</p>
         <h6>Quick start:</h6>
         <pre>
 <code># download zip-archive above
 #
-$ unzip subgit-2.0.3.zip
+$ unzip subgit-3.0.0.zip
 #
 # make sure you're acting on behalf of the same user you use
 # to serve Subversion repository
 #
-$ subgit-2.0.3/bin/subgit configure --svn-url SVN_URL REPOS.GIT
-$ subgit-2.0.3/bin/subgit install REPOS.GIT
+$ subgit-3.0.0/bin/subgit configure --svn-url SVN_URL REPOS.GIT
+$ subgit-3.0.0/bin/subgit install REPOS.GIT
 $ git clone REPOS.GIT working-tree</code></pre>
       </div>
     </div>
     <div class="box">
       <div class="tab_box_inner">
-        <p>Build: <strong>&#35;2796</strong>, published on: <strong>Sep 18, 2014</strong></p>
-        <p>Debian package: <a href="downloadingdeb.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-2.0.3_all.deb</a></p>
+        <p>Build: <strong>&#35;2796</strong>, published on: <strong>Jul 31, 2015</strong></p>
+        <p>Debian package: <a href="downloadingdeb.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.0.0_all.deb</a></p>
         <p class="checksum">file md5 checksum: e8a4638a2df0d3cc3541e517340d36a8</p>
         <h6>Quick start:</h6>
         <pre>
 <code># download Debian package above and fetch missing dependencies
 #
-$ sudo dpkg -i subgit_2.0.3_all.deb
+$ sudo dpkg -i subgit_3.0.0_all.deb
 $ sudo apt-get install -f
 #
 # make sure you're acting on behalf of the same user you use
 # to serve Subversion repository
 #
-$ subgit-2.0.3/bin/subgit configure --svn-url SVN_URL REPOS.GIT
-$ subgit-2.0.3/bin/subgit install REPOS.GIT
+$ subgit-3.0.0/bin/subgit configure --svn-url SVN_URL REPOS.GIT
+$ subgit-3.0.0/bin/subgit install REPOS.GIT
 $ git clone REPOS.GIT working-tree</code></pre>
       </div>
     </div>
   </div>
   <div id="new_wrap">
     <p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
-    <p>New in version 2.0.3 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
+    <p>New in version 3.0.0 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
     <ul>
-      <li>— Better handling of .gitignore file renames.</li>
-      <li>— Improved support for skip option.</li>
-      <li>— SSL client certificate could be specified on the command line of the import command.</li>
-      <li>— New version of SVNKit is used that improves SSL connectivity and GNOME keyring support.</li>
+    <li>— Automated SVN project layout detection (subgit configure --layout 'auto').</li>
+    <li>— Automated out-of-sync state recovery.</li>
+    <li>— Single-directory SVN project support.</li>
+    <li>— Skip anonymous Git branches translation (branches mapping without shelves option).</li>
+    <li>— Translation performance improved.</li>
+    <li>— Shared background daemon process to manage multiple mirror repositories on the same host.</li>
+    <li>— Script-based authors mapping support.</li>
+    <li>— Git credentials helper support to avoid plain-text SVN credentials being part of configuration.</li>
+    <li>— Simplified command line options.</li>
     </ul>
     <p>System Requirements:</p>
     <ul>
-      <li>— Java 1.5 or newer version.</li>
+      <li>— Java 1.6 or newer version.</li>
       <li>— We test SubGit on Linux, Windows and OS X systems.</li>
     </ul>
     <p>Refer to <a href="documentation.html">documentation</a> page for more information on how to use SubGit.</p>
+    <p>Important changes planned for 3.0.1 version of SubGit:</p>
+    <ul>
+    <li>— SubGit 3.0.1 will require Java 1.7 or newer.</li>
+    <li>— With SubGit 3.0.1, upon evaluation period of 30 days expiration pushes to the Git side of the mirror will be disabled for unregistered versions of SubGit.</li>
+    </ul>
   </div>
 </div>

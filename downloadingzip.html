@@ -33,7 +33,7 @@
 	</script>
 </head>
 
-<body id="downloading" onload="downloadFile('http://old.subgit.com/download/subgit-2.0.3.zip');">
+<body id="downloading" onload="downloadFile('http://old.subgit.com/download/subgit-3.0.0.zip');">
 	<div id="container">
 		<div id="top">
 			<div class="wrapper">
@@ -51,29 +51,40 @@
 		</div>
 		<div id="content">
 			<div class="green_wrap">
-				<h1>Downloading SubGit 2.0.3</h1>
+				<h1>Downloading SubGit 3.0.0</h1>
 			</div>
 			<div class="wrapper">
-				<p style="color: #d0c8b4">Your download will start shortly. If not, please use the following direct <a href="http://old.subgit.com/download/subgit-2.0.3.zip">link</a>.<br>
-				file md5 checksum: 709201da6dd3485533a9dff694e48280</p>
+				<p style="color: #d0c8b4">Your download will start shortly. If not, please use the following direct <a href="http://old.subgit.com/download/subgit-3.0.0.zip">link</a>.<br>
+				file md5 checksum: 14e4b0cb5a45e9d5348d5ebef800475a</p>
 				<p>You may use SubGit for evaluation purposes without a registration as long as you like.
 					During that evaluation period SubGit will remind you on a necessity of registration with the help of post commit and post receive messages.</p>
 				<p>For production use <a href="pricing.html">registration</a> is required.</p>
 				<p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
 				<div id="new_wrap">
-          <p>New in version 2.0.3 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
-					<ul>
-						<li>— Better handling of .gitignore file renames.</li>
-						<li>— Improved support for skip option.</li>
-						<li>— SSL client certificate could be specified on the command line of the import command.</li>
-						<li>— New version of SVNKit is used that improves SSL connectivity and GNOME keyring support.</li>
-					</ul>
-					<p>System Requirements:</p>
-					<ul>
-						<li>— Java 1.6 or newer version.</li>
-						<li>— We test SubGit on Linux, Windows and OS X systems.</li>
-					</ul>
+          <p>New in version 3.0.0 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
+    <p>New in version 3.0.0 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
+    <ul>
+    <li>— Automated SVN project layout detection (subgit configure --layout 'auto').</li>
+    <li>— Automated out-of-sync state recovery.</li>
+    <li>— Single-directory SVN project support.</li>
+    <li>— Skip anonymous Git branches translation (branches mapping without shelves option).</li>
+    <li>— Translation performance improved.</li>
+    <li>— Shared background daemon process to manage multiple mirror repositories on the same host.</li>
+    <li>— Script-based authors mapping support.</li>
+    <li>— Git credentials helper support to avoid plain-text SVN credentials being part of configuration.</li>
+    <li>— Simplified command line options.</li>
+    </ul>
+    <p>System Requirements:</p>
+    <ul>
+      <li>— Java 1.6 or newer version.</li>
+      <li>— We test SubGit on Linux, Windows and OS X systems.</li>
+    </ul>
 					<p>Refer to <a href="documentation.html">documentation</a> page for more information on how to use SubGit.</p>
+    <p>Important changes planned for 3.0.1 version of SubGit:</p>
+    <ul>
+    <li>— SubGit 3.0.1 will require Java 1.7 or newer.</li>
+    <li>— With SubGit 3.0.1, upon evaluation period of 30 days expiration pushes to the Git side of the mirror will be disabled for unregistered versions of SubGit.</li>
+    </ul>
 				</div>
 			</div>
 		</div>
