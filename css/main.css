@@ -101,7 +101,7 @@ a.button_orange:hover{background:#fff; border:2px solid #ff7244; color:#ff7244 !
 #testemonials{background:#d0c8b4; padding:57px 0; color:#fff;font-family: 'allerregular', sans-serif; line-height:28px; font-size:18px;}
 #testemonials li{ width:295px; float:left; padding-left:30px; list-style-type:none;}
 #testemonials li:first-child{padding-left:0;}
-#testemonials li p{text-align:justify;}
+/*#testemonials li p{text-align:justify;}*/
 #testemonials a{color:#807969; font-style:italic; text-align:right; float:right;}
 #testemonials li div{background:url(../img/testemonials.png) no-repeat; height:40px; width:46px; margin-bottom:12px;}
 .testemonials_name{font-family: 'allerbold', sans-serif; text-align:right !important; margin:20px 0 8px;}
