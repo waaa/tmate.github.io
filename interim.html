@@ -1,0 +1,92 @@
+---
+layout: default
+active: download
+subtitle: Download SubGit Interim Build
+---
+<div class="wrapper">
+    <div id="tab_wrap">
+        <ul id="tabs">
+            <li class="current">
+                <div id="tabs_header1">Universal Zip Archive (Linux, OS X, Windows)</div>
+            </li>
+            <li>
+                <div id="tabs_header2">Debian Package (Debian, Ubuntu)</div>
+            </li>
+        </ul>
+        <div class="box visible">
+            <div class="tab_box_inner">
+                <p>Build: <strong>&#35;3332</strong>, published on: <strong>Aug 4, 2015</strong></p>
+
+                <p>Binaries zip archive: <a href="downloadinginterimzip.html" class="button_orange"
+                                            style="margin:-10px 0 -10px 20px !important;">subgit-3.0.1-EAP_3332.zip</a></p>
+
+                <p class="checksum">file md5 checksum: ab40f68cbe9652e83c32f5108d2d7920</p>
+                <h6>Quick start:</h6>
+        <pre>
+<code># download zip-archive above
+    #
+    $ unzip subgit-3.0.1-EAP_3332.zip
+    #
+    # make sure you're acting on behalf of the same user you use
+    # to serve Subversion repository
+    #
+    $ subgit-3.0.1-EAP_3332/bin/subgit configure --layout auto SVN_URL REPOS.GIT
+    $ subgit-3.0.1-EAP_3332/bin/subgit install REPOS.GIT
+    $ git clone REPOS.GIT working-tree</code></pre>
+            </div>
+        </div>
+        <div class="box">
+            <div class="tab_box_inner">
+                <p>Build: <strong>&#35;3332</strong>, published on: <strong>Aug 4, 2015</strong></p>
+
+                <p>Debian package: <a href="downloadinginterimdeb.html" class="button_orange"
+                                      style="margin:-10px 0 -10px 20px !important;">subgit_3.0.1-EAP-3332_all.deb</a></p>
+
+                <p class="checksum">file md5 checksum: 325f8ec94727b52b94f764b650b7e03b</p>
+                <h6>Quick start:</h6>
+        <pre>
+<code># download Debian package above and fetch missing dependencies
+    #
+    $ sudo dpkg -i subgit_3.0.1-EAP-3332_all.deb
+    $ sudo apt-get install -f
+    #
+    # make sure you're acting on behalf of the same user you use
+    # to serve Subversion repository
+    #
+    $ subgit-3.0.1-EAP_3332/bin/subgit configure --layout auto SVN_URL REPOS.GIT
+    $ subgit-3.0.1-EAP_3332/bin/subgit install REPOS.GIT
+    $ git clone REPOS.GIT working-tree</code></pre>
+            </div>
+        </div>
+    </div>
+    <div id="new_wrap">
+        <p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
+
+        <p>New in version 3.0.0 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
+        <ul>
+            <li>— Automated SVN project layout detection (subgit configure --layout 'auto').</li>
+            <li>— Automated out-of-sync state recovery.</li>
+            <li>— Single-directory SVN project support.</li>
+            <li>— Skip anonymous Git branches translation (branches mapping without shelves option).</li>
+            <li>— Translation performance improved.</li>
+            <li>— Shared background daemon process to manage multiple mirror repositories on the same host.</li>
+            <li>— Script-based authors mapping support.</li>
+            <li>— Git credentials helper support to avoid plain-text SVN credentials being part of configuration.</li>
+            <li>— Simplified command line options.</li>
+        </ul>
+        <p>System Requirements:</p>
+        <ul>
+            <li>— Java 1.6 or newer version.</li>
+            <li>— We test SubGit on Linux, Windows and OS X systems.</li>
+        </ul>
+        <p>Refer to <a href="documentation.html">documentation</a> page for more information on how to use SubGit.</p>
+
+        <p>Important changes planned for 3.0.1 version of SubGit:</p>
+        <ul>
+            <li>— SubGit 3.0.1 will require Java 1.7 or newer.</li>
+            <li>— With SubGit 3.0.1, upon evaluation period of 30 days expiration pushes to the Git side of the mirror
+                will be disabled for unregistered versions of SubGit.
+            </li>
+        </ul>
+    </div>
+</div>
