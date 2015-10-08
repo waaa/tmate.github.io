@@ -1,0 +1,69 @@
+---
+title: "5.7. Adjust configuration: exclude paths"
+category: subchapter
+booktype: remote
+weight: 15
+---
+###5.7. Adjust configuration: exclude paths
+
+In this chapter some light would be lit on excluding paths from SubGit area of control.
+
+The concept is very simple. Using syntax similiar to syntax in .gitignore files, put following in your configuration file:
+
+    excludePath = PATTERN
+    includePath = PATTERN
+
+Recursive patterns cannot be used in **includdePath** option, the pattern should start with "/". Remember, that paths being matched are relative to branch or tag path.
+See 'http://git-scm.com/docs/gitignore' for complete documentation on the pattern format.
+
+By using those options you modify the selection of paths supervised by SubGit, so changes made in files located in excluded paths will not appear in the fellow version control system.
+
+    excludePath = /path/to/exclude
+    includePath = /path/to/include
+
+To ignore old-styled 8.3 format names, simple line would come in hand:
+
+    excludePath = *~1.*
+
+(See the details: "https://en.wikipedia.org/wiki/8.3_filename")
+
+If there is a need to exclude all .iso files, do the following:
+
+    excludePath = *.iso
+    
+It may be useful in some cases to include only two sub-directories in every branch. Following example shows how it's done:
+
+    includePath = /app/models
+    includePath = /app/views
+
+In this case only two directories would be translated. If another folder in Git repository is created: 
+    
+    echo "New file" > app/slides/file.txt
+    git add -A
+    git commit -m "New file"
+    git push origin master
+
+It will not appear in SVN repository as it's not listed in includePath option.
+
+Please note, that if whole SVN commit consists only of changes made in excluded files, SubGit still will create a Git commit, an empty one. To change that behavior put the following line in configuration file:
+
+    createEmptyGitCommits = false
+
+So SubGit will simply ignore revisions with no changes.
+
+And vice versa, if Git commit changes only excluded files, the empty commit will appear in SVN repository. In order to change that, that is the option needed:
+
+    createEmptySvnCommits = false
+
+> **Note:**<br>
+Adding any of those options on the already working mirror will not lead to the desired effect. With trying to run **subgit install** command, installation will fail and the program will ask you to revert the removals or use **--rebuild** option. We don't really advise you to use **--rebuild** option as it's honestly a big lot of hassle (as it was already said before).
+
+[](#up)
+
+
+
+
+
+
+
+
