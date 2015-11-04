@@ -1,0 +1,11 @@
+---
+layout: documentation
+---
+<div class="green_wrap">
+	<h1>SVN to GitLab How-To</h1>
+</div>
+{% include nav-gitlab.html %}
+{% for weight1 in (1..site.pages.size) %}{% for i in site.pages %}{% if i.weight == weight1 and i.booktype == 'gitlab' %}
+<div class="wrapper" id="{{ i.weight }}">
+{{ i.content }}
+</div>{% endif %}{% endfor %}{% endfor %}

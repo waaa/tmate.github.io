@@ -1,0 +1,11 @@
+<div id="booknav">
+	<ul>
+		<li>
+			<ul style="margin-left: 20px; !important">{% for weight in (1..site.pages.size) %}{% for chapt in site.pages %}{% if chapt.weight == weight and chapt.booktype == "gitlab" %}
+				<li class="{{ chapt.category }}">
+					<a href="#{{ chapt.weight }}">{{chapt.title}}</a>
+				</li>{% endif %}{% endfor %}{% endfor %}
+			</ul>
+		</li>
+	</ul>
+</div>
