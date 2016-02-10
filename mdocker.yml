@@ -1,0 +1,14 @@
+project: subgit-site
+hostname: mdocker
+ports:
+    - 4000:4000
+
+images:
+  base:
+    path: debian:jessie
+  git:
+    path: git
+  ruby:
+    path: ruby
+  jekyll:
+    path: jekyll
