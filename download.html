@@ -1,7 +1,7 @@
 ---
 layout: default
 active: download
-subtitle: Download SubGit 3.1.0
+subtitle: Download SubGit 3.1.1
 ---
 <div class="wrapper">
   <div id="tab_wrap">
@@ -11,53 +11,50 @@ subtitle: Download SubGit 3.1.0
     </ul>
     <div class="box visible">
       <div class="tab_box_inner">
-        <p>Build: <strong>&#35;3419</strong>, published on: <strong>December 19, 2015</strong></p>
-        <p>Binaries zip archive: <a href="downloadingzip.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.1.0.zip</a></p>
-        <p class="checksum">file md5 checksum: e886ac51ccb63154421301961a46dc54</p>
+        <p>Build: <strong>&#35;3488</strong>, published on: <strong>February 10, 2016</strong></p>
+        <p>Binaries zip archive: <a href="downloadingzip.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.1.1.zip</a></p>
+        <p class="checksum">file md5 checksum: 39311874560161400360ad0fbd8c965b</p>
         <h6>Quick start:</h6>
         <pre>
 <code># download zip-archive above
 #
-$ unzip subgit-3.1.0.zip
+$ unzip subgit-3.1.1.zip
 #
 # make sure you're acting on behalf of the same user you use
 # to serve Subversion repository
 #
-$ subgit-3.1.0/bin/subgit configure --layout auto SVN_URL REPOS.GIT
-$ subgit-3.1.0/bin/subgit install REPOS.GIT
+$ subgit-3.1.1/bin/subgit configure --layout auto SVN_URL REPOS.GIT
+$ subgit-3.1.1/bin/subgit install REPOS.GIT
 $ git clone REPOS.GIT working-tree</code></pre>
       </div>
     </div>
     <div class="box">
       <div class="tab_box_inner">
-        <p>Build: <strong>&#35;3419</strong>, published on: <strong>December 19, 2015</strong></p>
-        <p>Debian package: <a href="downloadingdeb.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.1.0_all.deb</a></p>
-        <p class="checksum">file md5 checksum: ce4861b02bb954908fa643d11462bcf4</p>
+        <p>Build: <strong>&#35;3488</strong>, published on: <strong>February 10, 2016</strong></p>
+        <p>Debian package: <a href="downloadingdeb.html" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-3.1.1_all.deb</a></p>
+        <p class="checksum">file md5 checksum: 4d32db4d7eb4bc554f8a640e388b09db</p>
         <h6>Quick start:</h6>
         <pre>
 <code># download Debian package above and fetch missing dependencies
 #
-$ sudo dpkg -i subgit_3.1.0_all.deb
+$ sudo dpkg -i subgit_3.1.1_all.deb
 $ sudo apt-get install -f
 #
 # make sure you're acting on behalf of the same user you use
 # to serve Subversion repository
 #
-$ subgit-3.1.0/bin/subgit configure --layout auto SVN_URL REPOS.GIT
-$ subgit-3.1.0/bin/subgit install REPOS.GIT
+$ subgit-3.1.1/bin/subgit configure --layout auto SVN_URL REPOS.GIT
+$ subgit-3.1.1/bin/subgit install REPOS.GIT
 $ git clone REPOS.GIT working-tree</code></pre>
       </div>
     </div>
   </div>
   <div id="new_wrap">
     <p>By using SubGit you agree with a SubGit <a href="license.html">Licensing Agreement</a>.</p>
-    <p>New in version 3.1.0 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
+    <p>New in version 3.1.1 (<a href="documentation/release-notes.html">complete release notes</a>):</p>
     <ul>
-    <li>— SubGit could now be licensed for a number of Git user, i.e. number of user that push to Git/SVN mirror using Git. With Git users registration number of SVN committers is not taken into account.</li>
-    <li>— Evaluation period is extended to 30 days.</li>
-    <li>— Sync will be now disabled upon evaluation period expiration.</li>
-    <li>— Stability and performance improvements.</li>
-    <li>— Java 1.7 or newer is required.</li>
+    <li>— SGT-1056: Branch deletion in Git may overwrite changes in SVN on the same branch, fixed.</li>
+    <li>— Improvements in conflicts recovery code.</li>
     </ul>
     <p>System Requirements:</p>
     <ul>
