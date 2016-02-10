@@ -1,4 +1,4 @@
 highlighter: true
-markdown: redcarpet
+markdown: kramdown
 baseurl: 
 exclude: ['README.md']
