@@ -10,21 +10,21 @@ For more comprehensive documentation refer to [SubGit Book](remote-book.html).
 
 ##### Table of Contents
 
-#####1. [Configure Mirror Git Repository](#configure)
+##### 1. [Configure Mirror Git Repository](#configure)
 
-#####2. [Review and Adjust Git/SVN Mirror Configuration](#review)
+##### 2. [Review and Adjust Git/SVN Mirror Configuration](#review)
 
-#####3. [Perform Initial Translation](#initial)
+##### 3. [Perform Initial Translation](#initial)
 
-#####4. [System Requirements](#requirements)
+##### 4. [System Requirements](#requirements)
 
-#####5. [SubGit with GitLab](#gitlab)
+##### 5. [SubGit with GitLab](#gitlab)
 
-#####6. [Moving Git Repository](#move)
+##### 6. [Moving Git Repository](#move)
 
-#####7. [Get Support](#support)
+##### 7. [Get Support](#support)
 
-#####1. Configure Mirror Git Repository<a name="configure"></a>
+##### 1. Configure Mirror Git Repository<a name="configure"></a>
 
 Run the following command to configure Git repository to mirror SVN project:
 
@@ -41,7 +41,7 @@ e.g.
 
     $ subgit help configure
 
-#####2. Review and Adjust Git/SVN Mirror Configuration<a name="review"></a>
+##### 2. Review and Adjust Git/SVN Mirror Configuration<a name="review"></a>
 
 Review and adjust branches mapping configuration:
 
@@ -53,7 +53,7 @@ Review and adjust Git/SVN authors mapping:
 
 You may use dynamic authors mapping replacing authors.txt with a script. Script sample could be found at repos.git/subgit/samples directory.
 
-#####3. Perform Initial Translation<a name="initial"></a>
+##### 3. Perform Initial Translation<a name="initial"></a>
 
 Run the following command to enalbe mirror and translate SVN revisions to Git commits:
 
@@ -64,22 +64,22 @@ Pushes to repos.git will be translated to SVN and commits to SVN will be transla
 
 There are many ways to make Git repository available to the users (see [Git on the Server](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols)), including SSH access, Apache Web Server, GitLab, etc.
 
-#####4. System Requirements<a name="requirements"></a>
+##### 4. System Requirements<a name="requirements"></a>
 
 We test SubGit on Linux, Windows and OS X. JDK 1.7 or newer is required. SVN servers 1.4 or newer are supported.
 
-#####5. SubGit with GitLab<a name="gitlab"></a>
+##### 5. SubGit with GitLab<a name="gitlab"></a>
 
 If you're using [GitLab](http://gitlab.com/) refer to [GitLab How-to](gitlab.html) for more information on how to set up SubGit to work seamlessly with GitLab.
 
-#####6. Moving Git Repository<a name="move"></a>
+##### 6. Moving Git Repository<a name="move"></a>
 Would you need to move Git repository in filesystem, you'd need to shutdown sync before move and enable it back after repository has been moved:
 
     $ subgit shutdown repos.git
     $ mv repos.git repos2.git
     $ subgit install repos2.git
 
-#####7. Get Support<a name="support"></a>
+##### 7. Get Support<a name="support"></a>
 
 For support feel free to contact us at [support@subgit.com](mailto:support@subgit.com). We are ready to help!
 
