@@ -23,23 +23,6 @@ post-commit hook script into SVN repository that will notify add-on of the new c
 
     $ edit SVN_REPOS/hooks/post-commit
 
-For add-on version 3.0.3 or older or 3.2.3 or older:
-
-    #!/bin/sh
-    
-    REPOS="$1"
-    REV="$2"
-    
-    BITBUCKET_HOST=192.168.9.10
-    BITBUCKET_PATH=stash
-    BITBUCKET_PORT=7990
-    
-    SVN_REPOS_UUID=$(svnlook uuid "$REPOS")
-    SVN_CHANGED_PATHS=$(svnlook changed -r "$REV" "$REPOS" | awk 1 ORS='\\n')
-    
-    curl -s -u username:password -H "Content-Type: application/json" -H "X-Atlassian-Token:no-check" -X POST -d "{ \"uuid\" : \"$SVN_REPOS_UUID\", \"revision\" : \"$REV\", \"changedPaths\" : \"$SVN_CHANGED_PATHS\" }" "http://$BITBUCKET_HOST:$BITBUCKET_PORT/$BITBUCKET_PATH/rest/svn/1.0/sync"
-    exit 0
-
 For add-on version 3.0.4 or newer or 3.2.4 or newer:
 
     #!/bin/sh
@@ -54,7 +37,26 @@ For add-on version 3.0.4 or newer or 3.2.4 or newer:
     SVN_REPOS_UUID=$(svnlook uuid "$REPOS")
     SVN_CHANGED_PATHS=$(svnlook changed -r "$REV" "$REPOS" | awk 1 ORS='\\n')
     
+    curl -s -u username:password -H "Content-Type: application/json" -H "X-Atlassian-Token:no-check" -X POST -d "{ \"uuid\" : \"$SVN_REPOS_UUID\", \"revision\" : \"$REV\", \"changedPaths\" : \"$SVN_CHANGED_PATHS\" }" "http://$BITBUCKET_HOST:$BITBUCKET_PORT/$BITBUCKET_PATH/rest/svn/1.0/sync"
+
+    exit 0
+
+For add-on version 3.0.3 or older or 3.2.3 or older:
+
+    #!/bin/sh
+    
+    REPOS="$1"
+    REV="$2"
+    
+    BITBUCKET_HOST=192.168.9.10
+    BITBUCKET_PATH=stash
+    BITBUCKET_PORT=7990
+    
+    SVN_REPOS_UUID=$(svnlook uuid "$REPOS")
+    SVN_CHANGED_PATHS=$(svnlook changed -r "$REV" "$REPOS" | awk 1 ORS='\\n')
+    
     curl -s -u username:password -H "X-Atlassian-Token:no-check" -X POST "http://$BITBUCKET_HOST:$BITBUCKET_PORT/$BITBUCKET_PATH/rest/svn/1.0/svnUUID/$SVN_REPOS_UUID?command=sync"
+
     exit 0
 
 Make sure post-commit hook script is executable:
@@ -103,6 +105,10 @@ Change global configuration option (only available in 3.2.x):
 
     Request: POST
     URL: http://BITBUCKET_HOST/rest/svn/1.0/config?name=OPTION_NAME&value=OPTION_VALUE
+
+### 3. Support
+
+    Contact us at [mailto:support@subgit.com](support@subgit.com) with any questions regarding SVN Mirror Add-On for Bitbucket Server. We'll be glad to assist!
 
 {% endcapture %}
 
