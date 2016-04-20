@@ -20,6 +20,7 @@ console.log('processing not found path: ' + path);
 if (path == '/eap' || path == '/eap.html') {
   window.location.pathname = '/download.html';
 } else if (
+    endsWith(path, '/gerrit') ||
     endsWith(path, '/download') ||
     endsWith(path, '/documentation') ||
     endsWith(path, '/support') ||
