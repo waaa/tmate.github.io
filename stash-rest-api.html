@@ -1,0 +1,110 @@
+---
+layout: documentation
+subtitle: SVN Mirror Add-On for Bitbucket Server REST API
+---
+<div class="wrapper">
+{% capture content %}
+
+SVN Mirror Add-On for Bitbucker Server provides number of REST API end points that could be used to control configured mirrors.
+
+###  <a name="sync"></a>1. How to use REST API to invoke SVN/Git sync
+
+Major REST API use-case is explicit sync invocation for a particular mirror. By default, Git/SVN mirror polls SVN repository
+every 60 seconds to fetch new changes if there are any. This works fine for most of the users of the add-on, but may lead 
+to performance issues when there are a lot of configured mirrors.
+
+One of the ways to workaround this issue and significantly reduce server load is only to perform sync when there are new
+revisions available in SVN repository. Periodic polling might be then disabled (by setting poll interval to 0) or configured
+to use much longer interval, e.g. one of 3600 seconds (1 hour). When sync is explicitly invoked it is also has a benefit 
+of SVN changes being available in Git mostly immediately after SVN commit is completed.
+
+The requirement for the explicit sync configuration is shell access to SVN repository - one will have to install special
+post-commit hook script into SVN repository that will notify add-on of the new changes via REST API.
+
+    $ edit SVN_REPOS/hooks/post-commit
+
+For add-on version 3.0.3 or older or 3.2.3 or older:
+
+    #!/bin/sh
+    
+    REPOS="$1"
+    REV="$2"
+    
+    BITBUCKET_HOST=192.168.9.10
+    BITBUCKET_PATH=stash
+    BITBUCKET_PORT=7990
+    
+    SVN_REPOS_UUID=$(svnlook uuid "$REPOS")
+    SVN_CHANGED_PATHS=$(svnlook changed -r "$REV" "$REPOS" | awk 1 ORS='\\n')
+    
+    curl -s -u username:password -H "Content-Type: application/json" -H "X-Atlassian-Token:no-check" -X POST -d "{ \"uuid\" : \"$SVN_REPOS_UUID\", \"revision\" : \"$REV\", \"changedPaths\" : \"$SVN_CHANGED_PATHS\" }" "http://$BITBUCKET_HOST:$BITBUCKET_PORT/$BITBUCKET_PATH/rest/svn/1.0/sync"
+    exit 0
+
+For add-on version 3.0.4 or newer or 3.2.4 or newer:
+
+    #!/bin/sh
+    
+    REPOS="$1"
+    REV="$2"
+    
+    BITBUCKET_HOST=192.168.9.10
+    BITBUCKET_PATH=stash
+    BITBUCKET_PORT=7990
+    
+    SVN_REPOS_UUID=$(svnlook uuid "$REPOS")
+    SVN_CHANGED_PATHS=$(svnlook changed -r "$REV" "$REPOS" | awk 1 ORS='\\n')
+    
+    curl -s -u username:password -H "X-Atlassian-Token:no-check" -X POST "http://$BITBUCKET_HOST:$BITBUCKET_PORT/$BITBUCKET_PATH/rest/svn/1.0/svnUUID/$SVN_REPOS_UUID?command=sync"
+    exit 0
+
+Make sure post-commit hook script is executable:
+
+    $ chmod ugo+x SVN_REPOS/hooks/post-commit
+
+Upon receiving notification, add-on will invoke sync for mirrors that might be affected by the newly committed SVN revision.
+To complete configuration, set "Poll interval" (Repository | Settings | Subversion Mirror | Connection Tab) to 3600 to enable occasional scheduled sync.
+
+### 2. REST API end-points reference:
+
+Invoke sync for all configured Git mirrors of SVN repositories with UUID:
+
+    Request: POST
+    URL: http://BITBUCKET_HOST/rest/svn/1.0/svnUUID/SVN_REPOS_UUID?command=sync
+    Body: none
+
+Invoke sync for all configured Git mirrors of SVN repositories with specified UUID and paths:
+
+    URL: http://BITBUCKET_HOST/rest/svn/1.0/sync
+    Request: POST
+    Content-Type: application/json
+    Body: JSON object of a form:
+      { 
+      "uuid" : "SVN_REPOS_UUID",
+      "revision" : "SVN_REVISION",
+      "changedPaths" : "paths modified in SVN_REVISION a format of 'svnlook changed' command' with newlines escaped"
+      }
+
+Invoke sync for a particular mirror:
+
+    Request: POST
+    URL: http://BITBUCKET_HOST/rest/svn/1.0/projects/PROJECT_KEY/repos/REPO_SLUG?command=sync
+
+Disalbe or enable sync for a particular mirror:
+
+    Request: POST
+    URL: http://BITBUCKET_HOST/rest/svn/1.0/projects/PROJECT_KEY/repos/REPO_SLUG?command=start|stop
+
+Change mirror configuration option (only available in 3.2.x):
+
+    Request: POST
+    URL: http://BITBUCKET_HOST/rest/svn/1.0/projects/PROJECT_KEY/repos/REPO_SLUG/config?name=OPTION_NAME&value=OPTION_VALUE
+
+Change global configuration option (only available in 3.2.x):
+
+    Request: POST
+    URL: http://BITBUCKET_HOST/rest/svn/1.0/config?name=OPTION_NAME&value=OPTION_VALUE
+
+{% endcapture %}
+
+{{ content | markdownify }}
+</div>
