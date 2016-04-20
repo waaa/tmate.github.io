@@ -1,0 +1,94 @@
+---
+layout: documentation
+subtitle: SubGit Plugin for Gerrit
+---
+<div class="wrapper">
+{% capture content %}
+
+> **WARNING**<br>
+[Gerrit](https://www.gerritcodereview.com/) does not trigger standard pre-receive and post-receive hooks when one pushes new commits to Git repository. SubGit heavily relies on those hooks in order to maintain reliable two-way mirror. On this page you can download SubGit plugin for Gerrit that emulates pre-receive hook behavior, however, this plugin has [certain limitations](#limitations).
+
+### 1. Download SubGit Plugin for Gerrit
+
+<p>Build: <strong>&#35;52</strong>, published on: <strong>April 19, 2016:</strong></p>
+<center>
+	<p><a href="http://old.subgit.com/download/subgit-gerrit-plugin-0.8-EAP_52.jar" class="button_orange" style="margin:-10px 0 -10px 20px !important;">subgit-gerrit-plugin-0.8-EAP_52.jar</a></p>
+</center>
+<p>MD5 checksum: 53b406a245031415d020b079273bd8af<br>
+Compatible Gerrit versions: 2.10.x, 2.11.x and 2.12.x.</p>
+
+### 2. Install SubGit Plugin into Gerrit
+
+<p>Move downloaded file into GERRIT_SITE/plugins/ directory and make sure the plugin becomes enabled at Plugins | Installed:</p>
+
+![List installed plugins]({{ site.baseurl }}/img/gerrit/101_installed_plugins.png)
+
+If you have older version of the plugin, replace it with the newer one.
+
+### 3. Increase receive timeout
+
+Set [receive.timeout](https://git.eclipse.org/r/Documentation/config-gerrit.html#receive) to 0 in [GERRIT_SITE/etc/gerrit.config](https://git.eclipse.org/r/Documentation/config-gerrit.html#_file_code_etc_gerrit_config_code) file and then restart Gerrit server:
+	
+    $ git config -f GERRIT_SITE/etc/gerrit.config receive.timeout 0
+    $ GERRIT_SITE/bin/gerrit.sh restart
+
+By default Gerrit may interrupt `git push` operation on timeout, setting receive.timeout to 0 forces Gerrit to wait until SubGit completes Git-SVN synchronization.
+
+### 4. Create empty Git repository
+<p>
+Create empty Git repository at Projects | Create New Project:
+</p>
+
+![Create empty Git repository]({{ site.baseurl }}/img/gerrit/102_create_project.png)
+
+### 5. Follow standard instructions
+
+Locate repository directory of created Gerrit project:
+
+    $ ls GERRIT_SITE/git/
+    $ ls GERRIT_SITE/git/project.git
+
+and follow [standard instructions]( {{ site.baseurl }}/howto.html) on establishing Git-SVN mirror with SubGit command line tool:
+
+Run the following command to configure Git repository to mirror SVN project:
+
+    $ subgit configure --layout auto SVN_URL GERRIT_SITE/git/project.git
+
+Above command will detect branches layout in the SVN project and generate SubGit configuration file ready for further adjustments.
+You may be asked for credentials unless those are already stored in the SVN credentials cache at ~/.subversion/ directory.
+
+Review and adjust branches mapping configuration:
+
+    $ edit GERRIT_SITE/git/project.git/subgit/config
+
+Review and adjust Git/SVN authors mapping: 
+
+    $ edit GERRIT_SITE/git/project.git/subgit/authors.txt
+
+You may use dynamic authors mapping replacing authors.txt with a script. Script sample could be found at GERRIT_SITE/git/project.git/subgit/samples/ directory.
+
+Run the following command to enable mirror and translate SVN revisions to Git commits:
+
+    $ subgit install GERRIT_SITE/git/project.git
+
+As soon as initial translation is completed, Gerrit project is ready to serve users. 
+Commits pushed to this project will be translated to Subversion repository and SVN revisions will be translated to Git.
+
+### 6. SubGit Plugin Limitations<a name="limitations"></a>
+
+SubGit plugin for Gerrit emulates pre-receive hook behavior, however, this plugin has certain limitations that lead to the following behavior:
+
++ With SubGit plugin enabled in Gerrit, one can push any changes to refs/heads/* and refs/tags/* namespaces and SubGit is able to synchronize those commits with Subversion repository reliably, i.e. SubGit mirror never gets into out-of-sync state, Git commits which conflict with any SVN changes get rejected by SubGit.
+
++ However, if one submits changes throw Gerrit web UI, e.g. by merging reviewed changes into some branch, cherry-picking any commits or creating branches via Gerrit, then SubGit is not able to synchronize those changes reliably: in case some Git commit conflicts with changes committed into Subversion repository, SubGit has to roll back that commit and move it to special refs/subgit/unsynced/* namespace.
+
+Please note that these limitations affect two-way mirrors only; in case of one-way mirrors when changes arrive from Subversion or Git side only, SubGit is able to keep SVN and Git repositories in sync.
+
+### 7. Get Support<a name="support"></a>
+
+Would you have any question on using SubGit with Gerrit, don't hesitate to contact us at [support@subgit.com](mailto:support@subgit.com). We'd be glad to assist you.
+
+{% endcapture %}
+
+{{ content | markdownify }}
+</div>
