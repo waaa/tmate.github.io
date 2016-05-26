@@ -1,7 +1,7 @@
 ---
-title: "3. What are the options when talking about authors mapping?"
+title: "Authors mapping"
 category: chapter
-booktype: remote
+booktype: blog
 weight: 20
 ---
 
