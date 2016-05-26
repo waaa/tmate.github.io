@@ -1,3 +1,8 @@
+layout: post
+title: "What are shelves?"
+date: 2016-05-11
+---
+
 2.Repository layout
 
 To define user's repository layout we use branches mapping.
