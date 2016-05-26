@@ -1,5 +1,5 @@
 ---
-title: "5.12. Recommended client-side Git configuration"
+title: "3. What are the options when talking about authors mapping?"
 category: chapter
 booktype: remote
 weight: 20
