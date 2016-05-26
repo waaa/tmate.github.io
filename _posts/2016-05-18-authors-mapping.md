@@ -4,7 +4,7 @@ title: "Authors mapping"
 date: 2016-05-18
 ---
 
-###3. What are the options when talking about authors mapping?
+What are the options when talking about authors mapping?
 
 Authors mapping is a question at first sight quite simple, but it's getting interesting and a bit more complicated if a closer look is taken. In this post an attempt is made to clear up a situation regarding different user-cases and problems that could occur during set up of a right way of mapping commit authors between two systems of SubGit and SVN.
 
