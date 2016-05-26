@@ -1,6 +1,6 @@
 ---
 title: "5.12. Recommended client-side Git configuration"
-category: subchapter
+category: chapter
 booktype: remote
 weight: 20
 ---
