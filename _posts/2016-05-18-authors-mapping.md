@@ -1,8 +1,7 @@
 ---
+layout: post
 title: "Authors mapping"
-category: chapter
-booktype: blog
-weight: 20
+date: 2016-05-18
 ---
 
 ###3. What are the options when talking about authors mapping?
